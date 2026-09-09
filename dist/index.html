@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101d2b">
+  <meta name="description" content="Mandarim em 150 frases conectadas à rotina, música, histórias, arte e projetos. Ouça, grave e compare, no seu tempo.">
+  <title>Ilhas de mandarim · 听，说，再听</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#practice">Pular para a prática</a>
+  <header class="topbar"><a class="brand" href="./" aria-label="Ilhas de mandarim, início"><span lang="zh-CN" class="seal">岛</span><span>Ilhas de mandarim<small lang="zh-CN">听，说，再听</small></span></a><span class="edition">CADERNO 01 <span>150 frases · 5 ilhas</span></span></header>
+  <div id="storage-warning" class="notice" role="status" hidden>Não foi possível salvar neste navegador. A prática funciona, mas o progresso pode se perder ao sair.</div>
+  <div class="layout">
+    <aside aria-label="Suas ilhas">
+      <div class="nav-heading"><span class="eyebrow">SEU PERCURSO</span><span id="total-done">0 / 5 ilhas</span></div>
+      <nav id="islands" aria-label="Escolher uma ilha"></nav>
+      <div class="aside-note"><span lang="zh-CN">慢慢来。</span><p>Uma cena de cada vez.<br>Ouça. Responda. Volte a ouvir.</p></div>
+      <details class="guide"><summary>Como percorrer uma ilha</summary><p>Cada ilha tem 6 cenas de 5 frases. Percorra na ordem para acompanhar o assunto. As últimas cinco formam um pequeno relato.</p><p>Tente ouvir antes de abrir as pistas. Depois, repita e compare com o ouvido. Se quiser ir além, diga uma resposta sua usando a mesma estrutura.</p><p>Uma revisão é registrada ao tocar em “Concluir revisão”. Uma ilha fica percorrida quando suas 30 frases têm pelo menos uma revisão. Isso registra prática, não domínio.</p></details>
+    </aside>
+    <main id="practice" tabindex="-1">
+      <div id="loading" role="status">Preparando seu caderno…</div>
+      <div id="workspace" hidden>
+        <div class="island-heading"><div><div class="eyebrow" id="island-no"></div><h1 id="island-title"></h1><p id="island-description"></p></div><span id="island-zh" class="island-zh" lang="zh-CN" aria-hidden="true"></span></div>
+        <div class="progress-line"><span id="island-progress-text"></span><span id="island-reviews"></span></div><progress id="island-progress" max="30" value="0" aria-label="Frases percorridas nesta ilha"></progress>
+        <section class="phrase-card" aria-labelledby="sentence">
+          <div class="scene-line"><span id="scene"></span><span id="phrase-number"></span></div>
+          <h2 lang="zh-CN" id="sentence" tabindex="-1"></h2>
+          <p class="cue" id="cue"></p>
+          <div class="hints"><details id="pinyin-details"><summary>Pinyin</summary><p id="pinyin" lang="zh-Latn"></p><small>Tons de dicionário; na fala, 一, 不 e sequências de terceiros tons podem mudar. Use o áudio para ouvir essas mudanças.</small></details><details id="meaning-details"><summary>Sentido e estrutura</summary><p id="translation"></p><p class="structure" id="structure"></p></details></div>
+          <div class="studio">
+            <section class="voice reference" aria-labelledby="ref-title"><div class="voice-title"><h3 id="ref-title">01 · Ouça a referência</h3><span class="badge">1×</span></div><p class="voice-caption">Mandarim padrão · voz sintética</p><audio id="reference" controls preload="metadata" aria-label="Ouvir e pausar a frase de referência"></audio><p id="ref-status" class="status" role="status"></p></section>
+            <section class="voice recording" aria-labelledby="rec-title"><div class="voice-title"><h3 id="rec-title">02 · Experimente sua voz</h3><span id="rec-indicator" class="badge">LOCAL</span></div><p class="voice-caption">Use fones para evitar eco na gravação.</p><div class="record-buttons"><button id="record" class="record-button"><span aria-hidden="true">●</span> Gravar</button><button id="stop" disabled>Parar</button><span id="timer" aria-live="off">0:00</span></div><audio id="mine" controls preload="metadata" aria-label="Ouvir e pausar sua gravação" hidden></audio><p id="rec-status" class="status" role="status">Sua gravação fica só nesta frase, neste aparelho.</p></section>
+          </div>
+          <section class="comparison" aria-labelledby="comparison-title"><div class="comparison-heading"><h3 id="comparison-title">03 · Escute as diferenças</h3><span class="badge">EXPERIMENTAL</span></div><div id="comparison-result" aria-live="polite"><p class="muted">Depois de gravar, compare o ritmo, a força relativa da voz e o desenho da entonação.</p></div><p class="comparison-note">A porcentagem indica semelhança acústica, não acerto do mandarim. Não reconhece palavras nem valida tons por sílaba. Microfone, ruído e características da voz influenciam o resultado.</p></section>
+          <div class="review-row"><span id="phrase-reviews"></span><button id="complete" class="primary">Concluir revisão</button></div>
+        </section>
+        <div class="navigation"><button id="previous">← Anterior</button><label for="phrase-select">Ir para a frase<select id="phrase-select"></select></label><button id="next">Próxima →</button></div>
+        <details class="scene-overview"><summary>Ver as 30 frases desta ilha</summary><div id="phrase-list"></div></details>
+        <details class="about"><summary>Sobre o material, os áudios e seus dados</summary><p>Frases autorais em mandarim contemporâneo, organizadas por situações. Não são citações de séries ou músicas nem uma lista medida por frequência de corpus. A escolha prioriza construções reutilizáveis na conversa; as cenas “Diário” aproximam você da escrita breve.</p><p>A referência usa a voz sintética Microsoft Xiaoxiao, em velocidade padrão. Não é a voz do ChatGPT nem uma gravação humana. As indicações de emoção orientam sua interpretação; a síntese não garante uma atuação nativa em cada frase.</p><p>Sua voz não é enviada a um servidor. Ao trocar de frase ou ilha, iniciar outra gravação, sair da página ou recarregar, o áudio é descartado. Apenas posição, revisões e preferências ficam no armazenamento local deste navegador. Esses dados não sincronizam entre aparelhos.</p><p>Estruturas consultadas no <a href="https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points" target="_blank" rel="noopener">Chinese Grammar Wiki</a>; exemplo contemporâneo de organização por etapas em <a href="https://cpc.people.com.cn/n1/2026/0713/c461783-40759206.html" target="_blank" rel="noopener">artigo do 人民网</a>. A seleção é pedagógica e autoral, sem alegar um ranking de uso.</p><p><a href="https://github.com/HyakkimaruPY/mandarim-rotina" target="_blank" rel="noopener">Código e conteúdo no GitHub</a></p></details>
+      </div>
+      <noscript>Ative o JavaScript para ouvir, gravar e guardar seu progresso. O conteúdo também está no repositório do projeto.</noscript>
+    </main>
+  </div>
+  <footer><span lang="zh-CN">不用一次学完。</span> Não precisa aprender tudo de uma vez.</footer>
+</body>
+</html>

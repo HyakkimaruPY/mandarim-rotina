@@ -1,0 +1,57 @@
+name: Build audio and publish Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install speech generator
+        run: pip install edge-tts==7.2.8
+      - uses: actions/cache@v4
+        with:
+          path: dist/audio
+          key: mandarin-audio-v1-${{ hashFiles('dist/content.json', 'scripts/generate_audio.py') }}
+          restore-keys: mandarin-audio-v1-
+      - name: Generate all 150 reference recordings
+        run: python scripts/generate_audio.py
+      - name: Validate content, JavaScript and audio
+        run: |
+          node --check dist/app.mjs
+          node --check dist/analysis.mjs
+          node --test tests/analysis.test.mjs
+          python scripts/validate.py --audio
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mandarim-rotina-site
+          path: dist
+          retention-days: 30
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
