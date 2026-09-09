@@ -1,0 +1,1046 @@
+{
+  "source": "wordfreq 3.1.1 (data through 2021; mixed domains)",
+  "highFrequencyZipf": 5,
+  "commonZipf": 4.5,
+  "productiveSplits": {
+    "我刚": "我 刚",
+    "喝点": "喝 点",
+    "做点": "做 点",
+    "慢慢来": "慢慢 来",
+    "听懂": "听 懂",
+    "听不懂": "听 不 懂",
+    "说不出来": "说 不 出来",
+    "说出来": "说 出来",
+    "就行": "就 行",
+    "听过": "听 过",
+    "听听": "听 听",
+    "一首": "一 首",
+    "这首": "这 首",
+    "那首": "那 首",
+    "首歌": "首 歌",
+    "这句": "这 句",
+    "那句": "那 句",
+    "这集": "这 集",
+    "一集": "一 集",
+    "这张": "这 张",
+    "一遍": "一 遍",
+    "看一遍": "看 一 遍",
+    "我能": "我 能",
+    "更难": "更 难",
+    "别急": "别 急",
+    "别动": "别 动",
+    "试一下": "试 一下",
+    "几次": "几 次",
+    "不太": "不 太",
+    "有太多": "有 太 多",
+    "不用说": "不用 说",
+    "忘不了": "忘 不 了",
+    "条路": "条 路",
+    "就够": "就 够",
+    "打不开": "打 不 开",
+    "换个": "换 个",
+    "会儿": "会 儿",
+    "有空": "有 空",
+    "一只": "一 只",
+    "一部": "一 部",
+    "一句": "一 句",
+    "有个": "有 个",
+    "坐在": "坐 在",
+    "放在": "放 在",
+    "更好": "更 好",
+    "这一": "这 一",
+    "想过": "想 过",
+    "我会": "我 会",
+    "很想": "很 想",
+    "一段": "一 段",
+    "再有": "再 有",
+    "学到": "学 到",
+    "做好": "做 好",
+    "留着": "留 着"
+  },
+  "islands": [
+    {
+      "id": "arte",
+      "highFrequencyShare": 0.812,
+      "commonShare": 0.968,
+      "phrases": [
+        {
+          "id": "arte-01",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-02",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-03",
+          "highFrequencyShare": 0.6,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-04",
+          "highFrequencyShare": 0.5,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-05",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-06",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": [
+            {
+              "word": "黑猫",
+              "zipf": 3.34
+            }
+          ]
+        },
+        {
+          "id": "arte-07",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": [
+            {
+              "word": "月亮",
+              "zipf": 4.26
+            }
+          ]
+        },
+        {
+          "id": "arte-08",
+          "highFrequencyShare": 0.5,
+          "lessFrequent": [
+            {
+              "word": "亮",
+              "zipf": 4.28
+            }
+          ]
+        },
+        {
+          "id": "arte-09",
+          "highFrequencyShare": 0.6,
+          "lessFrequent": [
+            {
+              "word": "空白",
+              "zipf": 4.11
+            }
+          ]
+        },
+        {
+          "id": "arte-10",
+          "highFrequencyShare": 0.5,
+          "lessFrequent": [
+            {
+              "word": "安静",
+              "zipf": 4.4
+            }
+          ]
+        },
+        {
+          "id": "arte-11",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-12",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": [
+            {
+              "word": "左边",
+              "zipf": 4.09
+            }
+          ]
+        },
+        {
+          "id": "arte-13",
+          "highFrequencyShare": 0.75,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-14",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-15",
+          "highFrequencyShare": 0.714,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-16",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-17",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-18",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-19",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-20",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-21",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-22",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-23",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-24",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-25",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-26",
+          "highFrequencyShare": 0.7,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-27",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-28",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-29",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "arte-30",
+          "highFrequencyShare": 0.4,
+          "lessFrequent": []
+        }
+      ]
+    },
+    {
+      "id": "historias",
+      "highFrequencyShare": 0.872,
+      "commonShare": 0.941,
+      "phrases": [
+        {
+          "id": "historias-01",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-02",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-03",
+          "highFrequencyShare": 0.5,
+          "lessFrequent": [
+            {
+              "word": "多长",
+              "zipf": 3.67
+            }
+          ]
+        },
+        {
+          "id": "historias-04",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-05",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": [
+            {
+              "word": "字幕",
+              "zipf": 4.29
+            }
+          ]
+        },
+        {
+          "id": "historias-06",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-07",
+          "highFrequencyShare": 0.75,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-08",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-09",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-10",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-11",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-12",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-13",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": [
+            {
+              "word": "遍",
+              "zipf": 4.17
+            }
+          ]
+        },
+        {
+          "id": "historias-14",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": [
+            {
+              "word": "开玩笑",
+              "zipf": 4.39
+            }
+          ]
+        },
+        {
+          "id": "historias-15",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-16",
+          "highFrequencyShare": 0.571,
+          "lessFrequent": [
+            {
+              "word": "仙",
+              "zipf": 3.92
+            },
+            {
+              "word": "侠",
+              "zipf": 4.13
+            }
+          ]
+        },
+        {
+          "id": "historias-17",
+          "highFrequencyShare": 0.4,
+          "lessFrequent": [
+            {
+              "word": "仙",
+              "zipf": 3.92
+            },
+            {
+              "word": "逆",
+              "zipf": 3.94
+            }
+          ]
+        },
+        {
+          "id": "historias-18",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-19",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-20",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-21",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": [
+            {
+              "word": "结局",
+              "zipf": 4.47
+            }
+          ]
+        },
+        {
+          "id": "historias-22",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-23",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-24",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-25",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": [
+            {
+              "word": "聊",
+              "zipf": 4.25
+            }
+          ]
+        },
+        {
+          "id": "historias-26",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": [
+            {
+              "word": "对白",
+              "zipf": 3.73
+            }
+          ]
+        },
+        {
+          "id": "historias-27",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-28",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-29",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "historias-30",
+          "highFrequencyShare": 0.875,
+          "lessFrequent": []
+        }
+      ]
+    },
+    {
+      "id": "musica",
+      "highFrequencyShare": 0.82,
+      "commonShare": 0.956,
+      "phrases": [
+        {
+          "id": "musica-01",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-02",
+          "highFrequencyShare": 0.75,
+          "lessFrequent": [
+            {
+              "word": "安静",
+              "zipf": 4.4
+            }
+          ]
+        },
+        {
+          "id": "musica-03",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": [
+            {
+              "word": "唱歌",
+              "zipf": 4.32
+            }
+          ]
+        },
+        {
+          "id": "musica-04",
+          "highFrequencyShare": 0.714,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-05",
+          "highFrequencyShare": 0.875,
+          "lessFrequent": [
+            {
+              "word": "网易",
+              "zipf": 4.4
+            }
+          ]
+        },
+        {
+          "id": "musica-06",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": [
+            {
+              "word": "好听",
+              "zipf": 3.92
+            }
+          ]
+        },
+        {
+          "id": "musica-07",
+          "highFrequencyShare": 0.571,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-08",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-09",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-10",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-11",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": [
+            {
+              "word": "歌词",
+              "zipf": 4.31
+            }
+          ]
+        },
+        {
+          "id": "musica-12",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-13",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-14",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-15",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-16",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-17",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": [
+            {
+              "word": "好听",
+              "zipf": 3.92
+            }
+          ]
+        },
+        {
+          "id": "musica-18",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-19",
+          "highFrequencyShare": 0.7,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-20",
+          "highFrequencyShare": 0.75,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-21",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-22",
+          "highFrequencyShare": 0.875,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-23",
+          "highFrequencyShare": 0.7,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-24",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-25",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": [
+            {
+              "word": "遍",
+              "zipf": 4.17
+            }
+          ]
+        },
+        {
+          "id": "musica-26",
+          "highFrequencyShare": 0.75,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-27",
+          "highFrequencyShare": 0.778,
+          "lessFrequent": [
+            {
+              "word": "旋律",
+              "zipf": 3.82
+            }
+          ]
+        },
+        {
+          "id": "musica-28",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": [
+            {
+              "word": "歌词",
+              "zipf": 4.31
+            }
+          ]
+        },
+        {
+          "id": "musica-29",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": []
+        },
+        {
+          "id": "musica-30",
+          "highFrequencyShare": 0.75,
+          "lessFrequent": []
+        }
+      ]
+    },
+    {
+      "id": "projetos",
+      "highFrequencyShare": 0.868,
+      "commonShare": 0.971,
+      "phrases": [
+        {
+          "id": "projetos-01",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-02",
+          "highFrequencyShare": 0.625,
+          "lessFrequent": [
+            {
+              "word": "练",
+              "zipf": 4.45
+            }
+          ]
+        },
+        {
+          "id": "projetos-03",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-04",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-05",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-06",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-07",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-08",
+          "highFrequencyShare": 0.5,
+          "lessFrequent": [
+            {
+              "word": "加载",
+              "zipf": 3.56
+            }
+          ]
+        },
+        {
+          "id": "projetos-09",
+          "highFrequencyShare": 0.714,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-10",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-11",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-12",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-13",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-14",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-15",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-16",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": [
+            {
+              "word": "按钮",
+              "zipf": 4.06
+            }
+          ]
+        },
+        {
+          "id": "projetos-17",
+          "highFrequencyShare": 0.9,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-18",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": [
+            {
+              "word": "录音",
+              "zipf": 4.36
+            }
+          ]
+        },
+        {
+          "id": "projetos-19",
+          "highFrequencyShare": 0.5,
+          "lessFrequent": [
+            {
+              "word": "进度",
+              "zipf": 4.13
+            }
+          ]
+        },
+        {
+          "id": "projetos-20",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-21",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-22",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-23",
+          "highFrequencyShare": 0.875,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-24",
+          "highFrequencyShare": 0.889,
+          "lessFrequent": [
+            {
+              "word": "记下",
+              "zipf": 3.5
+            }
+          ]
+        },
+        {
+          "id": "projetos-25",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-26",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-27",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-28",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-29",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "projetos-30",
+          "highFrequencyShare": 0.909,
+          "lessFrequent": []
+        }
+      ]
+    },
+    {
+      "id": "rotina",
+      "highFrequencyShare": 0.814,
+      "commonShare": 0.956,
+      "phrases": [
+        {
+          "id": "rotina-01",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-02",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-03",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-04",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-05",
+          "highFrequencyShare": 0.5,
+          "lessFrequent": [
+            {
+              "word": "着急",
+              "zipf": 3.93
+            }
+          ]
+        },
+        {
+          "id": "rotina-06",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-07",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-08",
+          "highFrequencyShare": 0.714,
+          "lessFrequent": [
+            {
+              "word": "遍",
+              "zipf": 4.17
+            }
+          ]
+        },
+        {
+          "id": "rotina-09",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-10",
+          "highFrequencyShare": 0.75,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-11",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-12",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": [
+            {
+              "word": "遍",
+              "zipf": 4.17
+            }
+          ]
+        },
+        {
+          "id": "rotina-13",
+          "highFrequencyShare": 0.818,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-14",
+          "highFrequencyShare": 0.75,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-15",
+          "highFrequencyShare": 0.857,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-16",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-17",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": [
+            {
+              "word": "充",
+              "zipf": 4.17
+            }
+          ]
+        },
+        {
+          "id": "rotina-18",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": [
+            {
+              "word": "耳机",
+              "zipf": 3.88
+            }
+          ]
+        },
+        {
+          "id": "rotina-19",
+          "highFrequencyShare": 0.833,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-20",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-21",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-22",
+          "highFrequencyShare": 0.5,
+          "lessFrequent": [
+            {
+              "word": "安静",
+              "zipf": 4.4
+            }
+          ]
+        },
+        {
+          "id": "rotina-23",
+          "highFrequencyShare": 0.667,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-24",
+          "highFrequencyShare": 0.6,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-25",
+          "highFrequencyShare": 0.8,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-26",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-27",
+          "highFrequencyShare": 0.778,
+          "lessFrequent": []
+        },
+        {
+          "id": "rotina-28",
+          "highFrequencyShare": 0.909,
+          "lessFrequent": [
+            {
+              "word": "遍",
+              "zipf": 4.17
+            }
+          ]
+        },
+        {
+          "id": "rotina-29",
+          "highFrequencyShare": 0.75,
+          "lessFrequent": [
+            {
+              "word": "练",
+              "zipf": 4.45
+            }
+          ]
+        },
+        {
+          "id": "rotina-30",
+          "highFrequencyShare": 1.0,
+          "lessFrequent": []
+        }
+      ]
+    }
+  ]
+}

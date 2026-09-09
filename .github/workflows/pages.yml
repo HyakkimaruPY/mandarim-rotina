@@ -23,18 +23,23 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install speech generator
-        run: pip install edge-tts==7.2.8
+        run: pip install edge-tts==7.2.8 wordfreq==3.1.1 jieba==0.42.1
+      - name: Discover and validate island modules
+        run: |
+          python scripts/content.py
+          python scripts/frequency.py
       - uses: actions/cache@v4
         with:
           path: dist/audio
           key: mandarin-audio-v1-${{ hashFiles('dist/content.json', 'scripts/generate_audio.py') }}
           restore-keys: mandarin-audio-v1-
-      - name: Generate all 150 reference recordings
+      - name: Generate reference recordings
         run: python scripts/generate_audio.py
       - name: Validate content, JavaScript and audio
         run: |
           node --check dist/app.mjs
           node --check dist/analysis.mjs
+          node --check dist/audio.mjs
           node --test tests/*.test.mjs
           python scripts/validate.py --audio
       - uses: actions/upload-artifact@v4
@@ -109,13 +114,18 @@ jobs:
                   assert 'id="workspace"' in html, 'The public page is not the practice application'
                   content = json.loads(read('content.json'))
                   phrases = [p for island in content['islands'] for p in island['phrases']]
-                  assert len(phrases) == 150
+                  catalog = json.loads(read('catalog.json'))
+                  assert len(catalog['islands']) == len(content['islands'])
+                  assert len(phrases) >= 150
+                  for entry in catalog['islands']:
+                      module = json.loads(read(entry['path']))
+                      assert module['id'] == entry['id'] and len(module['phrases']) >= 30
                   manifest = json.loads(read('audio/manifest.json'))
-                  assert len(manifest) == 150
+                  assert set(manifest) == {p['id'] for p in phrases}
                   for island in content['islands']:
                       for phrase in [island['phrases'][0], island['phrases'][-1]]:
                           assert len(read(phrase['audio'])) > 1500
-                  print('LIVE OK: practice application, 150 phrases, 150 audio entries and 10 served MP3 samples')
+                  print(f'LIVE OK: application, {len(catalog["islands"])} modules, {len(phrases)} phrases and reference audio')
                   print(base)
                   break
               except Exception as error:

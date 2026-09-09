@@ -1,44 +1,39 @@
 # Ilhas de mandarim
 
-150 frases autorais em 5 ilhas de 30 frases: rotina, música, histórias, arte e projetos. Cada ilha tem seis cenas conectadas de cinco frases. O site abre diretamente na prática e guarda a última frase de cada ilha neste navegador.
+[Praticar no GitHub Pages](https://hyakkimarupy.github.io/mandarim-rotina/)
 
-## Experiência
+Frases em cenas ligadas à rotina, música, histórias, arte e projetos. Ouça, grave, compare e guarde seu progresso neste navegador.
 
-- Referência em MP3 com voz sintética Microsoft `zh-CN-XiaoxiaoNeural`, velocidade padrão. Não é uma gravação humana ou a voz do ChatGPT. As indicações de emoção são orientação pedagógica; a síntese não assegura interpretação nativa em cada frase.
-- Gravação com MediaRecorder; ouvir e pausar nos dois players, que não tocam simultaneamente.
-- Comparação acústica local e experimental: duração (20%), envelope de energia normalizado (40%) e contorno relativo de frequência fundamental (40%). Não reconhece palavras, não alinha fonemas e não valida os tons de cada sílaba. Não é uma nota de pronúncia.
-- Silêncio insuficiente é rejeitado. Se não houver contorno detectável suficiente, não há porcentagem global. Microfones, ruído, eco e timbre podem alterar a estimativa.
-- Progresso no `localStorage`: posição por ilha, revisões por frase, preferências de pistas e data da última revisão. Revisões são confirmadas pelo estudante; não se confundem com domínio. Uma ilha percorrida tem todas as frases revisadas ao menos uma vez; uma volta completa é o mínimo de revisões entre suas frases.
-- Nenhuma gravação do estudante é enviada ao servidor ou armazenada no localStorage. Trocar de frase/ilha, iniciar nova gravação, recarregar ou sair destrói os blobs e URLs temporários e encerra o microfone. Sair para outro aplicativo durante uma gravação também a descarta. Permissões tardias não ressuscitam uma gravação antiga.
-- Pinyin e tradução recolhíveis, contraste, foco visível, navegação por teclado, controles nativos de áudio e layout móvel.
+## Conteúdo modular
 
-## Conteúdo e enriquecimento
+Cada ilha vive em `content/islands/<id>.json`, com pelo menos 30 frases. O build descobre novos arquivos automaticamente: não é necessário editar a interface, importações ou contagens. Leia [o guia de criação](docs/ISLANDS.md) antes de acrescentar uma ilha.
 
-Edite `scripts/content.py` e execute `python scripts/content.py` com `pypinyin==0.55.0`. O resultado versionado é `dist/content.json`. Mantenha os IDs para preservar o progresso existente. Para uma frase substituída por outra sem continuidade pedagógica, use um novo ID. Campos: `zh`, `pt`, `pinyin`, `note`, `scene`, `cue`, `register`, `audio`.
+A seleção combina interesses, estruturas comuns e auditoria lexical. A revisão mantém uma base de conversa frequente com expressões de leitura, escrita e linguagem técnica; 36 frases receberam formulações mais simples, preservando outras como ampliação de registro. [O relatório](docs/frequency-audit.json) documenta a análise; a fonte [wordfreq](https://github.com/rspeer/wordfreq) contém dados até 2021, não estatísticas atuais da conversa nem frequência de padrões gramaticais completos. Consulte [Chinese Grammar Wiki](https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points) para o uso dos padrões.
 
-O pinyin usa tons de dicionário e dicionário contextual para caracteres polifônicos. Não é uma transcrição fonética do áudio; mudanças de 一, 不 e sequências de terceiro tom devem ser observadas na fala. As frases avançam de fala curta para escrita breve e não recebem um rótulo HSK artificial.
+## Voz
 
-As situações se inspiram nos interesses solicitados, sem supor horários de trabalho ou uma agenda pessoal. São frases autorais, não citações de obras ou extrações de um corpus. A escolha prioriza uso transversal de estruturas comuns, sem alegar frequência estatística medida.
+A captura pede ganho automático e desativa, quando aceito pelo aparelho, redução de ruído e cancelamento de eco que podem alterar fala suave. Use fones. Um medidor aparece apenas enquanto grava. O navegador pode ignorar preferências; isso não permite garantir o mesmo resultado em todos os microfones.
 
-Referências de consulta: [Chinese Grammar Wiki — HSK 3](https://resources.allsetlearning.com/chinese/grammar/HSK_3_grammar_points), [exemplo de organização por etapas no 人民网 (2026)](https://cpc.people.com.cn/n1/2026/0713/c461783-40759206.html).
+A análise remove componente contínua e normaliza o sinal antes de detectar atividade e altura, evitando o corte por um volume absoluto que rejeitava vozes baixas. A reprodução recebe ganho constante limitado a 32 vezes e pico de 0,82, sem mudar duração ou altura. Isso melhora audibilidade, mas não recupera informação perdida pelo hardware e pode elevar ruído junto com a voz.
 
-## Publicação
+A semelhança acústica continua experimental: duração 20%, energia relativa 40%, contorno de frequência fundamental 40%. Não reconhece palavras, não alinha fonemas e não dá nota de mandarim correto. Quando a curva não é confiável, mostra os indicadores disponíveis sem inventar uma pontuação global. Os áudios de referência usam a voz sintética Microsoft Xiaoxiao, velocidade padrão; não são a voz do ChatGPT ou gravações humanas.
 
-O workflow `.github/workflows/pages.yml` gera os 150 MP3, valida todos os arquivos e só então publica `dist/` no GitHub Pages. Os áudios são preservados no cache de build e no artefato `mandarim-rotina-site` por 30 dias; são regeneráveis a partir do texto e da voz. Não se publicam referências ausentes silenciosamente. O cache usa hashes de texto, voz e configuração.
+## Privacidade
 
-Se o repositório ainda não estiver habilitado para Pages, configure **Settings → Pages → Source → GitHub Actions**. O token padrão de Actions pode não ter permissão administrativa para habilitar Pages pela primeira vez. Não inclua tokens ou chaves no front-end.
+A gravação, inclusive sua versão normalizada, permanece em memória. Navegação, nova gravação, recarga ou saída descartam os blobs e desligam o microfone. Permissões tardias são descartadas. O localStorage contém apenas posição, revisões, preferências e data da última revisão; nada disso é sincronizado com o GitHub.
 
-Para abrir localmente: `python -m http.server 8000 --directory dist`. Sem gerar os áudios, os players reportam referências indisponíveis. A gravação requer HTTPS ou localhost e permissão do microfone. A decodificação dos formatos de gravação varia por navegador; falha na análise não impede ouvir a gravação.
-
-## Validação
+## Desenvolvimento e publicação
 
 ```sh
+pip install wordfreq==3.1.1 jieba==0.42.1 edge-tts==7.2.8
+python scripts/content.py
+python scripts/frequency.py
 python scripts/validate.py
-node --check dist/app.mjs
 node --test tests/*.test.mjs
 python scripts/generate_audio.py
 python scripts/validate.py --audio
 ```
 
-Os testes acústicos cobrem silêncio, identidade, duração, normalização de volume e contorno ausente. O teste de integração do gravador cobre permissão tardia, navegação, nova gravação, saída da página, descarte de URLs e contagem de revisões. Eles não substituem validação fonética por falante humano nem testes com microfone em aparelhos reais.
-This is a simple storage of my study
+Sirva `dist/` por HTTPS ou localhost. A geração de áudio acontece no GitHub Actions; arquivos ausentes bloqueiam a publicação. O cache preserva áudios de textos sem mudança. Os testes cobrem voz muito baixa, contorno variável com deslocamento DC, silêncio, ruído, ganho de reprodução e descarte do gravador. Não substituem teste de microfone em aparelho real.
+
+A publicação evita conflitos com a publicação nativa da branch e verifica a página real, o catálogo, cada módulo e amostras dos MP3. A automação semanal do ChatGPT é responsável pela redação de uma nova ilha; o workflow faz o build e a publicação.

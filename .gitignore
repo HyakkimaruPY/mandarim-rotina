@@ -1,3 +1,5 @@
 dist/audio/
 __pycache__/
 *.partial
+dist/catalog.json
+dist/islands/

@@ -2,6 +2,11 @@ import json,sys
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 content=json.loads((root/'dist/content.json').read_text())
+catalog=json.loads((root/'dist/catalog.json').read_text())
+assert len(catalog['islands'])==len(content['islands'])
+for entry in catalog['islands']:
+    module=json.loads((root/'dist'/entry['path']).read_text())
+    assert module['id']==entry['id'] and len(module['phrases'])==entry['count']
 ids=set();sentences=set()
 for island in content['islands']:
     assert len(island['phrases'])>=30

@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "title": "Ilhas de mandarim",
   "islands": [
     {
@@ -109,10 +109,10 @@
         },
         {
           "id": "rotina-10",
-          "zh": "换个地方，我也能用。",
-          "pt": "Em outro contexto, também consigo usar.",
-          "pinyin": "huàn gè dì fāng ， wǒ yě néng yòng 。",
-          "note": "换个… é uma maneira coloquial de propor uma mudança.",
+          "zh": "下次聊天的时候，我也可以用。",
+          "pt": "Também posso usar quando conversar da próxima vez.",
+          "pinyin": "xià cì liáo tiān de shí hòu ， wǒ yě kě yǐ yòng 。",
+          "note": "…的时候 situa a frase; 也可以 serve para reconhecer outro uso.",
           "scene": "Uma pausa para o mandarim",
           "cue": "Curiosidade; fale como se estivesse pensando em voz alta.",
           "register": "Conversa",
@@ -142,10 +142,10 @@
         },
         {
           "id": "rotina-13",
-          "zh": "不用放慢，正常说就行。",
-          "pt": "Não precisa desacelerar; pode falar normalmente.",
-          "pinyin": "bù yòng fàng màn ， zhèng cháng shuō jiù xíng 。",
-          "note": "…就行 significa que isso basta.",
+          "zh": "不用说得很慢，像平时一样说就好。",
+          "pt": "Não precisa falar muito devagar; pode falar como de costume.",
+          "pinyin": "bú yòng shuō de hěn màn ， xiàng píng shí yī yàng shuō jiù hǎo 。",
+          "note": "像…一样 cria uma comparação; …就好 diz que isso basta.",
           "scene": "Ouvir e tentar de novo",
           "cue": "Pedido amigável, sem recitar palavra por palavra.",
           "register": "Conversa",
@@ -164,10 +164,10 @@
         },
         {
           "id": "rotina-15",
-          "zh": "这次比刚才顺一点。",
-          "pt": "Desta vez saiu um pouco mais fluido.",
-          "pinyin": "zhè cì bǐ gāng cái shùn yì diǎn 。",
-          "note": "比 compara; 一点 torna a diferença pequena.",
+          "zh": "这次说得比刚才好一点。",
+          "pt": "Desta vez falei um pouco melhor.",
+          "pinyin": "zhè cì shuō de bǐ gāng cái hǎo yì diǎn 。",
+          "note": "说得… descreve como saiu a fala; 比 compara tentativas.",
           "scene": "Ouvir e tentar de novo",
           "cue": "Pedido amigável, sem recitar palavra por palavra.",
           "register": "Conversa",
@@ -291,7 +291,7 @@
           "note": "没有 nega uma ação passada; 太多 quantifica em excesso.",
           "scene": "Diário · um dia possível",
           "cue": "Relato pessoal, com ritmo de conversa.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/rotina-26.mp3"
         },
         {
@@ -302,7 +302,7 @@
           "note": "…的时候 cria o contexto; 听听 torna a atividade breve e leve.",
           "scene": "Diário · um dia possível",
           "cue": "Relato pessoal, com ritmo de conversa.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/rotina-27.mp3"
         },
         {
@@ -313,7 +313,7 @@
           "note": "听不懂的地方 transforma a dificuldade em assunto da frase.",
           "scene": "Diário · um dia possível",
           "cue": "Relato pessoal, com ritmo de conversa.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/rotina-28.mp3"
         },
         {
@@ -324,7 +324,7 @@
           "note": "虽然…但… relaciona uma limitação e um resultado positivo.",
           "scene": "Diário · um dia possível",
           "cue": "Relato pessoal, com ritmo de conversa.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/rotina-29.mp3"
         },
         {
@@ -335,10 +335,27 @@
           "note": "学完 marca conclusão; 还能 expressa possibilidade que permanece.",
           "scene": "Diário · um dia possível",
           "cue": "Relato pessoal, com ritmo de conversa.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/rotina-30.mp3"
         }
-      ]
+      ],
+      "schemaVersion": 1,
+      "order": 1,
+      "concept": "Pequenas decisões, uma pausa para estudar e o fim do dia.",
+      "corePatterns": [
+        "我想…",
+        "先…再…",
+        "还没…",
+        "能不能…",
+        "…就…",
+        "…的时候"
+      ],
+      "topicWords": [
+        "耳机",
+        "中文",
+        "充电"
+      ],
+      "registerPolicy": "Base de conversa comum, mesclada a leitura, escrita e linguagem técnica ligadas ao tema."
     },
     {
       "id": "musica",
@@ -370,10 +387,10 @@
         },
         {
           "id": "musica-03",
-          "zh": "我比较喜欢女声。",
-          "pt": "Prefiro vozes femininas.",
-          "pinyin": "wǒ bǐ jiào xǐ huān nǚ shēng 。",
-          "note": "比较喜欢 expressa preferência com suavidade.",
+          "zh": "我比较喜欢听她唱歌。",
+          "pt": "Prefiro ouvir ela cantar.",
+          "pinyin": "wǒ bǐ jiào xǐ huān tīng tā chàng gē 。",
+          "note": "比较喜欢 apresenta uma preferência; 听她唱歌 liga ouvir e a ação de alguém.",
           "scene": "Escolher o que ouvir",
           "cue": "Interesse tranquilo; uma conversa sobre preferências.",
           "register": "Conversa",
@@ -403,10 +420,10 @@
         },
         {
           "id": "musica-06",
-          "zh": "她的声音很温柔。",
-          "pt": "A voz dela é muito suave.",
-          "pinyin": "tā de shēng yīn hěn wēn róu 。",
-          "note": "声音 descreve a voz ou o som; 温柔 descreve sua qualidade.",
+          "zh": "她的声音很好听。",
+          "pt": "A voz dela é muito bonita.",
+          "pinyin": "tā de shēng yīn hěn hǎo tīng 。",
+          "note": "…很好听 é uma avaliação cotidiana de algo agradável de ouvir.",
           "scene": "A voz e o arranjo",
           "cue": "Admiração discreta, sem exagerar cada palavra.",
           "register": "Conversa",
@@ -425,10 +442,10 @@
         },
         {
           "id": "musica-08",
-          "zh": "伴奏不会盖过她的声音。",
-          "pt": "O acompanhamento não encobre a voz dela.",
-          "pinyin": "bàn zòu bú huì gài guò tā de shēng yīn 。",
-          "note": "盖过 funciona como superar ou encobrir em intensidade.",
+          "zh": "音乐的声音小一点就好了。",
+          "pt": "Se a música ficasse um pouco mais baixa, ficaria bom.",
+          "pinyin": "yīn yuè de shēng yīn xiǎo yì diǎn jiù hǎo le 。",
+          "note": "…小一点就好了 sugere um ajuste pequeno.",
           "scene": "A voz e o arranjo",
           "cue": "Admiração discreta, sem exagerar cada palavra.",
           "register": "Conversa",
@@ -480,10 +497,10 @@
         },
         {
           "id": "musica-13",
-          "zh": "原来是在说想念一个人。",
-          "pt": "Ah, então fala de sentir falta de alguém.",
-          "pinyin": "yuán lái shì zài shuō xiǎng niàn yí gè rén 。",
-          "note": "原来 apresenta uma descoberta que reorganiza o sentido.",
+          "zh": "原来是在说很想一个人。",
+          "pt": "Ah, então fala de sentir muita falta de alguém.",
+          "pinyin": "yuán lái shì zài shuō hěn xiǎng yí gè rén 。",
+          "note": "想一个人 pode expressar saudade; 原来 marca uma descoberta.",
           "scene": "Encontrar o sentido",
           "cue": "Curiosidade e uma pequena descoberta.",
           "register": "Conversa",
@@ -491,10 +508,10 @@
         },
         {
           "id": "musica-14",
-          "zh": "怪不得听起来有点难过。",
+          "zh": "所以听起来有点难过。",
           "pt": "Por isso soa um pouco triste.",
-          "pinyin": "guài bù dé tīng qǐ lái yǒu diǎn nán guò 。",
-          "note": "怪不得 liga a descoberta a uma impressão anterior.",
+          "pinyin": "suǒ yǐ tīng qǐ lái yǒu diǎn nán guò 。",
+          "note": "所以 liga uma causa ao resultado; 听起来 descreve a impressão pelo ouvido.",
           "scene": "Encontrar o sentido",
           "cue": "Curiosidade e uma pequena descoberta.",
           "register": "Conversa",
@@ -524,10 +541,10 @@
         },
         {
           "id": "musica-17",
-          "zh": "是不是很好听？",
-          "pt": "É bonita, né?",
-          "pinyin": "shì bú shì hěn hǎo tīng ？",
-          "note": "是不是 pode buscar concordância sobre uma impressão.",
+          "zh": "你也觉得好听吗？",
+          "pt": "Você também acha bonita?",
+          "pinyin": "nǐ yě jué de hǎo tīng ma ？",
+          "note": "也 + 觉得 liga uma impressão à de outra pessoa.",
           "scene": "Ouvir junto",
           "cue": "Convite amigável; perguntas abertas.",
           "register": "Conversa",
@@ -579,10 +596,10 @@
         },
         {
           "id": "musica-22",
-          "zh": "说不上来，就是有点感动。",
-          "pt": "Não sei explicar; só me emociona um pouco.",
-          "pinyin": "shuō bù shàng lái ， jiù shì yǒu diǎn gǎn dòng 。",
-          "note": "说不上来 expressa dificuldade de pôr a impressão em palavras.",
+          "zh": "不知道为什么，听了就想哭。",
+          "pt": "Não sei por quê; quando ouço, dá vontade de chorar.",
+          "pinyin": "bù zhī dào wèi shén me ， tīng le jiù xiǎng kū 。",
+          "note": "…了就… liga uma experiência à reação que ela provoca.",
           "scene": "Uma lembrança na música",
           "cue": "Nostalgia suave, mantendo os tons das palavras.",
           "register": "Conversa",
@@ -590,10 +607,10 @@
         },
         {
           "id": "musica-23",
-          "zh": "我不是难过，只是想静一静。",
-          "pt": "Não estou triste; só quero ficar quieto um pouco.",
-          "pinyin": "wǒ bú shì nán guò ， zhǐ shì xiǎng jìng yī jìng 。",
-          "note": "不是…只是… corrige uma interpretação com delicadeza.",
+          "zh": "我没有不开心，只是想一个人待一会儿。",
+          "pt": "Não estou infeliz; só quero ficar sozinho um pouco.",
+          "pinyin": "wǒ méi yǒu bù kāi xīn ， zhǐ shì xiǎng yí gè rén dāi yī huì er 。",
+          "note": "只是… esclarece a intenção; 一个人 indica fazer algo sozinho.",
           "scene": "Uma lembrança na música",
           "cue": "Nostalgia suave, mantendo os tons das palavras.",
           "register": "Conversa",
@@ -629,7 +646,7 @@
           "note": "又 apresenta uma repetição que já aconteceu.",
           "scene": "Diário · depois de ouvir",
           "cue": "Reflexão íntima, com pausas naturais.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/musica-26.mp3"
         },
         {
@@ -640,7 +657,7 @@
           "note": "却 cria contraste; 忘不了 indica não conseguir esquecer.",
           "scene": "Diário · depois de ouvir",
           "cue": "Reflexão íntima, com pausas naturais.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/musica-27.mp3"
         },
         {
@@ -651,7 +668,7 @@
           "note": "说得很直接 descreve a maneira de expressar algo.",
           "scene": "Diário · depois de ouvir",
           "cue": "Reflexão íntima, com pausas naturais.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/musica-28.mp3"
         },
         {
@@ -662,21 +679,40 @@
           "note": "那种感觉 retoma um tipo de sentimento compartilhado no contexto.",
           "scene": "Diário · depois de ouvir",
           "cue": "Reflexão íntima, com pausas naturais.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/musica-29.mp3"
         },
         {
           "id": "musica-30",
-          "zh": "对我来说，听歌也是在学中文。",
-          "pt": "Para mim, ouvir música também é aprender chinês.",
-          "pinyin": "duì wǒ lái shuō ， tīng gē yě shì zài xué zhōng wén 。",
-          "note": "对我来说 introduz a perspectiva pessoal.",
+          "zh": "我觉得听歌也可以学中文。",
+          "pt": "Acho que também dá para aprender chinês ouvindo música.",
+          "pinyin": "wǒ jué de tīng gē yě kě yǐ xué zhōng wén 。",
+          "note": "我觉得… expressa opinião; 也可以 amplia uma possibilidade.",
           "scene": "Diário · depois de ouvir",
           "cue": "Reflexão íntima, com pausas naturais.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/musica-30.mp3"
         }
-      ]
+      ],
+      "schemaVersion": 1,
+      "order": 2,
+      "concept": "Escolher uma canção, perceber a voz e conversar sobre o que ficou.",
+      "corePatterns": [
+        "我想…",
+        "有没有…",
+        "比较喜欢…",
+        "听起来…",
+        "…以后…",
+        "越…越…"
+      ],
+      "topicWords": [
+        "歌",
+        "歌词",
+        "音乐",
+        "歌单",
+        "网易云音乐"
+      ],
+      "registerPolicy": "Base de conversa comum, mesclada a leitura, escrita e linguagem técnica ligadas ao tema."
     },
     {
       "id": "historias",
@@ -785,10 +821,10 @@
         },
         {
           "id": "historias-10",
-          "zh": "先别急着下结论。",
-          "pt": "Não vamos tirar conclusões tão cedo.",
-          "pinyin": "xiān bié jí zhe xià jié lùn 。",
-          "note": "先别急着… pede que se adie uma ação precipitada.",
+          "zh": "先看下去，再说吧。",
+          "pt": "Vamos continuar vendo primeiro e conversar depois.",
+          "pinyin": "xiān kàn xià qù ， zài shuō ba 。",
+          "note": "先…再… organiza a sequência; 看下去 indica continuar.",
           "scene": "Acompanhar a cena",
           "cue": "Dúvida real: pergunte sem transformar tudo em exclamação.",
           "register": "Conversa",
@@ -840,10 +876,10 @@
         },
         {
           "id": "historias-15",
-          "zh": "难怪她笑了。",
-          "pt": "Por isso ela sorriu.",
-          "pinyin": "nán guài tā xiào le 。",
-          "note": "难怪 comenta algo que agora faz sentido.",
+          "zh": "所以她才笑了。",
+          "pt": "Então foi por isso que ela sorriu.",
+          "pinyin": "suǒ yǐ tā cái xiào le 。",
+          "note": "所以…才… destaca a razão de algo acontecer.",
           "scene": "Entender por contexto",
           "cue": "Pequenos momentos de compreensão.",
           "register": "Conversa",
@@ -884,10 +920,10 @@
         },
         {
           "id": "historias-19",
-          "zh": "他为什么非要走这条路？",
-          "pt": "Por que ele insiste em seguir esse caminho?",
-          "pinyin": "tā wèi shén me fēi yào zǒu zhè tiáo lù ？",
-          "note": "非要 expressa insistência; 路 pode ser uma escolha de vida.",
+          "zh": "他为什么一定要这么做？",
+          "pt": "Por que ele insiste em fazer isso?",
+          "pinyin": "tā wèi shén me yí dìng yào zhè me zuò ？",
+          "note": "一定要 expressa determinação; 这么做 retoma uma ação.",
           "scene": "Conversar sobre xianxia",
           "cue": "Entusiasmo contido, como entre amigos.",
           "register": "Conversa",
@@ -939,10 +975,10 @@
         },
         {
           "id": "historias-24",
-          "zh": "这一段看得我有点难受。",
-          "pt": "Esse trecho me deixou um pouco angustiado.",
-          "pinyin": "zhè yī duàn kàn de wǒ yǒu diǎn nán shòu 。",
-          "note": "看得我… descreve o efeito de assistir sobre quem fala.",
+          "zh": "看到这里，我有点难过。",
+          "pt": "Chegando nesta parte, fiquei um pouco triste.",
+          "pinyin": "kàn dào zhè lǐ ， wǒ yǒu diǎn nán guò 。",
+          "note": "看到这里 situa a parte alcançada; 有点 descreve uma sensação leve.",
           "scene": "Sem dar spoiler",
           "cue": "Expectativa, surpresa e pedidos leves.",
           "register": "Conversa",
@@ -967,7 +1003,7 @@
           "note": "对白 se refere às falas de personagens.",
           "scene": "Diário · depois do episódio",
           "cue": "Reflexão sobre a história; cadência clara.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/historias-26.mp3"
         },
         {
@@ -978,7 +1014,7 @@
           "note": "已经 indica que o efeito já está presente; 说明 expressa evidenciar.",
           "scene": "Diário · depois do episódio",
           "cue": "Reflexão sobre a história; cadência clara.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/historias-27.mp3"
         },
         {
@@ -989,18 +1025,18 @@
           "note": "不用…也能… liga ausência de necessidade e possibilidade.",
           "scene": "Diário · depois do episódio",
           "cue": "Reflexão sobre a história; cadência clara.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/historias-28.mp3"
         },
         {
           "id": "historias-29",
-          "zh": "比起结局，我更在意他的选择。",
-          "pt": "Mais do que o final, me importam as escolhas dele.",
-          "pinyin": "bǐ qǐ jié jú ， wǒ gèng zài yì tā de xuǎn zé 。",
-          "note": "比起…更… organiza prioridades, não só diferenças de grau.",
+          "zh": "我更想知道他为什么这么选。",
+          "pt": "Quero mais é saber por que ele escolheu assim.",
+          "pinyin": "wǒ gèng xiǎng zhī dào tā wèi shén me zhè me xuǎn 。",
+          "note": "更想知道… destaca uma curiosidade; 为什么 pergunta a causa.",
           "scene": "Diário · depois do episódio",
           "cue": "Reflexão sobre a história; cadência clara.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/historias-29.mp3"
         },
         {
@@ -1011,10 +1047,29 @@
           "note": "让…想了很久 descreve um efeito que durou.",
           "scene": "Diário · depois do episódio",
           "cue": "Reflexão sobre a história; cadência clara.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/historias-30.mp3"
         }
-      ]
+      ],
+      "schemaVersion": 1,
+      "order": 3,
+      "concept": "De dramas cotidianos a xianxia: acompanhar, reagir e contar sem dar spoiler.",
+      "corePatterns": [
+        "最近在…",
+        "为什么…",
+        "是不是…",
+        "我觉得…",
+        "还没…",
+        "如果…就…"
+      ],
+      "topicWords": [
+        "剧",
+        "字幕",
+        "仙侠",
+        "仙逆",
+        "结局"
+      ],
+      "registerPolicy": "Base de conversa comum, mesclada a leitura, escrita e linguagem técnica ligadas ao tema."
     },
     {
       "id": "arte",
@@ -1134,10 +1189,10 @@
         },
         {
           "id": "arte-11",
-          "zh": "这里是不是有点挤？",
-          "pt": "Será que esta parte está um pouco apertada?",
-          "pinyin": "zhè lǐ shì bú shì yǒu diǎn jǐ ？",
-          "note": "是不是 + 有点 torna a observação menos categórica.",
+          "zh": "这里的东西是不是太多了？",
+          "pt": "Será que tem coisas demais aqui?",
+          "pinyin": "zhè lǐ de dōng xī shì bú shì tài duō le ？",
+          "note": "是不是 pede uma avaliação; 太多了 aponta excesso.",
           "scene": "Olhar de novo",
           "cue": "Observação cuidadosa, sem pressa artificial.",
           "register": "Conversa",
@@ -1145,10 +1200,10 @@
         },
         {
           "id": "arte-12",
-          "zh": "把这个往左移一点。",
-          "pt": "Move isto um pouco para a esquerda.",
-          "pinyin": "bǎ zhè ge wǎng zuǒ yí yì diǎn 。",
-          "note": "往左 dá direção; 一点 mede uma mudança pequena.",
+          "zh": "把这个放在左边一点。",
+          "pt": "Coloque isto um pouco mais à esquerda.",
+          "pinyin": "bǎ zhè ge fàng zài zuǒ biān yì diǎn 。",
+          "note": "把…放在… indica onde colocar algo já conhecido.",
           "scene": "Olhar de novo",
           "cue": "Observação cuidadosa, sem pressa artificial.",
           "register": "Conversa",
@@ -1178,10 +1233,10 @@
         },
         {
           "id": "arte-15",
-          "zh": "我想让它看起来有点孤独。",
-          "pt": "Quero que ele pareça um pouco solitário.",
-          "pinyin": "wǒ xiǎng ràng tā kàn qǐ lái yǒu diǎn gū dú 。",
-          "note": "想让…看起来… conecta intenção e impressão visual.",
+          "zh": "我想让它看起来有点难过。",
+          "pt": "Quero que ele pareça um pouco triste.",
+          "pinyin": "wǒ xiǎng ràng tā kàn qǐ lái yǒu diǎn nán guò 。",
+          "note": "想让…看起来… liga sua intenção ao que a figura transmite.",
           "scene": "Olhar de novo",
           "cue": "Observação cuidadosa, sem pressa artificial.",
           "register": "Conversa",
@@ -1200,10 +1255,10 @@
         },
         {
           "id": "arte-17",
-          "zh": "你第一眼看到了什么？",
-          "pt": "O que você viu à primeira vista?",
-          "pinyin": "nǐ dì yī yǎn kàn dào le shén me ？",
-          "note": "第一眼 localiza a impressão inicial.",
+          "zh": "你先看到的是什么？",
+          "pt": "O que você viu primeiro?",
+          "pinyin": "nǐ xiān kàn dào de shì shén me ？",
+          "note": "…的是什么 focaliza o que chamou atenção.",
           "scene": "Trocar impressões",
           "cue": "Curiosidade respeitosa; espaço para outra leitura.",
           "register": "Conversa",
@@ -1233,10 +1288,10 @@
         },
         {
           "id": "arte-20",
-          "zh": "你这么说，我倒是没想到。",
-          "pt": "Não tinha pensado nisso que você disse.",
-          "pinyin": "nǐ zhè me shuō ， wǒ dǎo shì méi xiǎng dào 。",
-          "note": "倒是 marca uma mudança inesperada na perspectiva.",
+          "zh": "我还没这么想过。",
+          "pt": "Ainda não tinha pensado dessa maneira.",
+          "pinyin": "wǒ hái méi zhè me xiǎng guò 。",
+          "note": "还没…过 nega uma experiência até este momento.",
           "scene": "Trocar impressões",
           "cue": "Curiosidade respeitosa; espaço para outra leitura.",
           "register": "Conversa",
@@ -1255,10 +1310,10 @@
         },
         {
           "id": "arte-22",
-          "zh": "我想保留原来的感觉。",
-          "pt": "Quero preservar a sensação original.",
-          "pinyin": "wǒ xiǎng bǎo liú yuán lái de gǎn jué 。",
-          "note": "保留原来的… serve para preservar uma qualidade existente.",
+          "zh": "我想让它跟原来差不多。",
+          "pt": "Quero que fique parecido com o que era antes.",
+          "pinyin": "wǒ xiǎng ràng tā gēn yuán lái chà bu duō 。",
+          "note": "跟…差不多 compara algo com uma referência.",
           "scene": "Ajustar sem perder a ideia",
           "cue": "Decisão tranquila, com ênfase na mudança desejada.",
           "register": "Conversa",
@@ -1277,10 +1332,10 @@
         },
         {
           "id": "arte-24",
-          "zh": "少一点，反而更有感觉。",
-          "pt": "Com um pouco menos, acaba transmitindo mais.",
-          "pinyin": "shǎo yì diǎn ， fǎn ér gèng yǒu gǎn jué 。",
-          "note": "反而 apresenta um resultado contrário ao esperado.",
+          "zh": "少画一点，感觉更好。",
+          "pt": "Desenhando um pouco menos, a sensação fica melhor.",
+          "pinyin": "shǎo huà yì diǎn ， gǎn jué gèng hǎo 。",
+          "note": "少…一点 sugere reduzir a ação; 更好 compara o resultado.",
           "scene": "Ajustar sem perder a ideia",
           "cue": "Decisão tranquila, com ênfase na mudança desejada.",
           "register": "Conversa",
@@ -1299,13 +1354,13 @@
         },
         {
           "id": "arte-26",
-          "zh": "画到一半的时候，我换了个想法。",
-          "pt": "No meio do desenho, mudei de ideia.",
-          "pinyin": "huà dào yí bàn de shí hòu ， wǒ huàn le gè xiǎng fǎ 。",
-          "note": "…到一半的时候 situa uma mudança durante o processo.",
+          "zh": "画了一会儿以后，我又有了一个想法。",
+          "pt": "Depois de desenhar um pouco, tive outra ideia.",
+          "pinyin": "huà le yī huì er yǐ hòu ， wǒ yòu yǒu le yí gè xiǎng fǎ 。",
+          "note": "…以后 situa o depois; 又有了 indica um novo acontecimento.",
           "scene": "Diário · sobre criar",
           "cue": "Reflexivo, mantendo uma leitura fluida.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/arte-26.mp3"
         },
         {
@@ -1316,7 +1371,7 @@
           "note": "发现 introduz uma descoberta; 比 compara duas ações.",
           "scene": "Diário · sobre criar",
           "cue": "Reflexivo, mantendo uma leitura fluida.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/arte-27.mp3"
         },
         {
@@ -1327,7 +1382,7 @@
           "note": "有时候 restringe a observação a certas situações.",
           "scene": "Diário · sobre criar",
           "cue": "Reflexivo, mantendo uma leitura fluida.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/arte-28.mp3"
         },
         {
@@ -1338,7 +1393,7 @@
           "note": "希望…能… expressa um desejo sobre a experiência de alguém.",
           "scene": "Diário · sobre criar",
           "cue": "Reflexivo, mantendo uma leitura fluida.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/arte-29.mp3"
         },
         {
@@ -1349,10 +1404,29 @@
           "note": "至于 muda o foco do texto para um novo aspecto.",
           "scene": "Diário · sobre criar",
           "cue": "Reflexivo, mantendo uma leitura fluida.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/arte-30.mp3"
         }
-      ]
+      ],
+      "schemaVersion": 1,
+      "order": 4,
+      "concept": "Começar um desenho, rever escolhas e deixar espaço para quem olha.",
+      "corePatterns": [
+        "我想…",
+        "先…",
+        "有点…",
+        "看起来…",
+        "比…更…",
+        "不用…"
+      ],
+      "topicWords": [
+        "画",
+        "画画",
+        "月亮",
+        "黑猫",
+        "颜色"
+      ],
+      "registerPolicy": "Base de conversa comum, mesclada a leitura, escrita e linguagem técnica ligadas ao tema."
     },
     {
       "id": "projetos",
@@ -1384,10 +1458,10 @@
         },
         {
           "id": "projetos-03",
-          "zh": "打开以后就能直接用。",
-          "pt": "Ao abrir, já dá para usar.",
-          "pinyin": "dǎ kāi yǐ hòu jiù néng zhí jiē yòng 。",
-          "note": "…以后就能… liga uma etapa a uma capacidade imediata.",
+          "zh": "打开就可以用了。",
+          "pt": "É só abrir e usar.",
+          "pinyin": "dǎ kāi jiù kě yǐ yòng le 。",
+          "note": "…就可以… liga uma ação à possibilidade seguinte.",
           "scene": "Explicar a ideia",
           "cue": "Clareza de uma conversa entre colaboradores.",
           "register": "Conversa",
@@ -1445,7 +1519,7 @@
           "note": "一直在… indica continuidade de uma ação.",
           "scene": "Encontrar o problema",
           "cue": "Dúvida atenta; evite soar acusatório.",
-          "register": "Conversa",
+          "register": "Técnica",
           "audio": "audio/projetos-08.mp3"
         },
         {
@@ -1461,10 +1535,10 @@
         },
         {
           "id": "projetos-10",
-          "zh": "是不是哪里没设置好？",
-          "pt": "Será que alguma configuração ficou faltando?",
-          "pinyin": "shì bú shì nǎ lǐ méi shè zhì hǎo ？",
-          "note": "哪里 não precisa ser um lugar físico; 没…好 indica resultado incompleto.",
+          "zh": "是不是哪里还没做好？",
+          "pt": "Será que alguma parte ainda não ficou pronta?",
+          "pinyin": "shì bú shì nǎ lǐ hái méi zuò hǎo ？",
+          "note": "哪里 pode se referir a uma parte do projeto; 还没做好 indica resultado pendente.",
           "scene": "Encontrar o problema",
           "cue": "Dúvida atenta; evite soar acusatório.",
           "register": "Conversa",
@@ -1478,7 +1552,7 @@
           "note": "看看 apresenta uma verificação rápida.",
           "scene": "Investigar antes de mudar",
           "cue": "Tom prático, com etapas bem conectadas.",
-          "register": "Conversa",
+          "register": "Técnica",
           "audio": "audio/projetos-11.mp3"
         },
         {
@@ -1516,10 +1590,10 @@
         },
         {
           "id": "projetos-15",
-          "zh": "我想知道到底是哪一步出了问题。",
-          "pt": "Quero saber exatamente em qual etapa surgiu o problema.",
-          "pinyin": "wǒ xiǎng zhī dào dào dǐ shì nǎ yī bù chū le wèn tí 。",
-          "note": "到底 reforça a busca por uma resposta precisa.",
+          "zh": "我想知道问题到底在哪儿。",
+          "pt": "Quero saber onde exatamente está o problema.",
+          "pinyin": "wǒ xiǎng zhī dào wèn tí dào dǐ zài nǎ ér 。",
+          "note": "想知道… introduz uma dúvida; 到底 busca uma resposta precisa.",
           "scene": "Investigar antes de mudar",
           "cue": "Tom prático, com etapas bem conectadas.",
           "register": "Conversa",
@@ -1549,10 +1623,10 @@
         },
         {
           "id": "projetos-18",
-          "zh": "切换句子的时候，把录音删掉。",
-          "pt": "Ao mudar de frase, apague a gravação.",
-          "pinyin": "qiè huàn jù zi de shí hòu ， bǎ lù yīn shān diào 。",
-          "note": "切换句子 explicita trocar a frase praticada; 删掉 enfatiza remoção.",
+          "zh": "换一句话，就不要留着刚才的录音了。",
+          "pt": "Ao mudar de frase, não guarde a gravação anterior.",
+          "pinyin": "huàn yī jù huà ， jiù bú yào liú zhe gāng cái de lù yīn le 。",
+          "note": "换一句话 indica trocar a frase; 不要留着 pede para não conservar algo.",
           "scene": "Pedir um ajuste",
           "cue": "Pedido direto e cortês.",
           "register": "Conversa",
@@ -1566,15 +1640,15 @@
           "note": "只…就够了 delimita o que é suficiente.",
           "scene": "Pedir um ajuste",
           "cue": "Pedido direto e cortês.",
-          "register": "Conversa",
+          "register": "Técnica",
           "audio": "audio/projetos-19.mp3"
         },
         {
           "id": "projetos-20",
-          "zh": "其他功能先别动。",
-          "pt": "Por enquanto, não altere as outras funções.",
-          "pinyin": "qí tā gōng néng xiān bié dòng 。",
-          "note": "先别动 pode pedir para preservar uma parte do projeto.",
+          "zh": "其他地方先不要改。",
+          "pt": "Por enquanto, não mude as outras partes.",
+          "pinyin": "qí tā dì fāng xiān bú yào gǎi 。",
+          "note": "先不要… adia uma ação; 其他地方 se refere ao restante.",
           "scene": "Pedir um ajuste",
           "cue": "Pedido direto e cortês.",
           "register": "Conversa",
@@ -1604,10 +1678,10 @@
         },
         {
           "id": "projetos-23",
-          "zh": "但我还想多测几次。",
-          "pt": "Mas quero testar mais algumas vezes.",
-          "pinyin": "dàn wǒ hái xiǎng duō cè jǐ cì 。",
-          "note": "多…几次 pede repetição adicional, sem número fechado.",
+          "zh": "但我还想再试几次。",
+          "pt": "Mas ainda quero testar mais algumas vezes.",
+          "pinyin": "dàn wǒ hái xiǎng zài shì jǐ cì 。",
+          "note": "还想再… combina intenção que permanece e repetição.",
           "scene": "Testar e confirmar",
           "cue": "Concentração; alívio apenas quando o teste funciona.",
           "register": "Conversa",
@@ -1615,10 +1689,10 @@
         },
         {
           "id": "projetos-24",
-          "zh": "如果又卡住，就把情况记下来。",
-          "pt": "Se travar de novo, registre o que aconteceu.",
-          "pinyin": "rú guǒ yòu kǎ zhù ， jiù bǎ qíng kuàng jì xià lái 。",
-          "note": "如果…就… define uma resposta a uma condição.",
+          "zh": "如果又不能用，就记下当时的情况。",
+          "pt": "Se não funcionar de novo, anote o que aconteceu naquele momento.",
+          "pinyin": "rú guǒ yòu bù néng yòng ， jiù jì xià dāng shí de qíng kuàng 。",
+          "note": "如果…就… define condição e resposta; 当时 retoma o momento.",
           "scene": "Testar e confirmar",
           "cue": "Concentração; alívio apenas quando o teste funciona.",
           "register": "Conversa",
@@ -1632,18 +1706,18 @@
           "note": "…以后再… estabelece uma condição temporal antes da ação.",
           "scene": "Testar e confirmar",
           "cue": "Concentração; alívio apenas quando o teste funciona.",
-          "register": "Conversa",
+          "register": "Técnica",
           "audio": "audio/projetos-25.mp3"
         },
         {
           "id": "projetos-26",
-          "zh": "今天的问题比我想的复杂。",
-          "pt": "O problema de hoje era mais complexo do que imaginei.",
-          "pinyin": "jīn tiān de wèn tí bǐ wǒ xiǎng de fù zá 。",
-          "note": "比我想的 compara a realidade com uma expectativa.",
+          "zh": "今天的问题没有我想的那么简单。",
+          "pt": "O problema de hoje não era tão simples quanto pensei.",
+          "pinyin": "jīn tiān de wèn tí méi yǒu wǒ xiǎng de nà me jiǎn dān 。",
+          "note": "没有…那么… compara uma expectativa ao que aconteceu.",
           "scene": "Diário · o que aprendi",
           "cue": "Relato simples de causa, tentativa e resultado.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/projetos-26.mp3"
         },
         {
@@ -1654,43 +1728,63 @@
           "note": "以为 apresenta uma crença anterior, frequentemente corrigida depois.",
           "scene": "Diário · o que aprendi",
           "cue": "Relato simples de causa, tentativa e resultado.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/projetos-27.mp3"
         },
         {
           "id": "projetos-28",
-          "zh": "后来才发现，是我把数据看错了。",
-          "pt": "Só depois percebi que tinha interpretado os dados errado.",
-          "pinyin": "hòu lái cái fā xiàn ， shì wǒ bǎ shù jù kàn cuò le 。",
-          "note": "才 enfatiza a descoberta tardia; 看错了 marca erro de interpretação.",
+          "zh": "后来才发现，是我看错了。",
+          "pt": "Só depois percebi que eu tinha entendido errado.",
+          "pinyin": "hòu lái cái fā xiàn ， shì wǒ kàn cuò le 。",
+          "note": "后来才… marca descoberta tardia; 看错了 indica erro na leitura.",
           "scene": "Diário · o que aprendi",
           "cue": "Relato simples de causa, tentativa e resultado.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/projetos-28.mp3"
         },
         {
           "id": "projetos-29",
-          "zh": "找到原因以后，修改就简单多了。",
-          "pt": "Depois de achar a causa, ficou bem mais simples corrigir.",
-          "pinyin": "zhǎo dào yuán yīn yǐ hòu ， xiū gǎi jiù jiǎn dān duō le 。",
-          "note": "…就… liga a descoberta à consequência; 多了 intensifica a diferença.",
+          "zh": "知道为什么以后，就好改多了。",
+          "pt": "Depois de saber o motivo, ficou bem mais fácil corrigir.",
+          "pinyin": "zhī dào wèi shén me yǐ hòu ， jiù hǎo gǎi duō le 。",
+          "note": "…以后就… liga descoberta e resultado; …多了 indica uma diferença grande.",
           "scene": "Diário · o que aprendi",
           "cue": "Relato simples de causa, tentativa e resultado.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/projetos-29.mp3"
         },
         {
           "id": "projetos-30",
-          "zh": "下次遇到类似的问题，我就知道怎么查了。",
-          "pt": "Da próxima vez que algo parecido acontecer, saberei investigar.",
-          "pinyin": "xià cì yù dào lèi sì de wèn tí ， wǒ jiù zhī dào zěn me chá le 。",
-          "note": "遇到…就… liga uma situação futura à resposta aprendida.",
+          "zh": "下次再有这样的问题，我就知道怎么办了。",
+          "pt": "Da próxima vez que houver um problema assim, já saberei o que fazer.",
+          "pinyin": "xià cì zài yǒu zhè yàng de wèn tí ， wǒ jiù zhī dào zěn me bàn le 。",
+          "note": "下次再…就… projeta uma situação e sua resposta.",
           "scene": "Diário · o que aprendi",
           "cue": "Relato simples de causa, tentativa e resultado.",
-          "register": "Escrita breve",
+          "register": "Leitura e escrita",
           "audio": "audio/projetos-30.mp3"
         }
-      ]
+      ],
+      "schemaVersion": 1,
+      "order": 5,
+      "concept": "Explicar uma ferramenta, encontrar um erro e testar uma correção.",
+      "corePatterns": [
+        "我想…",
+        "先…再…",
+        "能不能…",
+        "…以后…",
+        "如果…就…",
+        "还没…"
+      ],
+      "topicWords": [
+        "网页",
+        "播放",
+        "录音",
+        "按钮",
+        "进度",
+        "代码"
+      ],
+      "registerPolicy": "Base de conversa comum, mesclada a leitura, escrita e linguagem técnica ligadas ao tema."
     }
   ]
 }

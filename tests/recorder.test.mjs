@@ -19,7 +19,7 @@ test('Late microphone permission, navigation, rerecording and page exit discard 
   globalThis.window={addEventListener:(n,f)=>windowEvents[n]=f};
   const storage=new Map();globalThis.localStorage={getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)};
   const content=JSON.parse(await readFile(new URL('../dist/content.json',import.meta.url),'utf8'));
-  globalThis.fetch=async()=>({ok:true,json:async()=>content});
+  globalThis.fetch=async url=>({ok:true,json:async()=>url.includes('catalog.json')?{islands:content.islands.map(i=>({id:i.id,path:`islands/${i.id}.json`}))}:content.islands.find(i=>url.endsWith(`/${i.id}.json`))});
   let resolvePermission,stops=0,instances=0,activeURLs=new Set();
   const media={getUserMedia:()=>new Promise(r=>resolvePermission=r)};
   Object.defineProperty(globalThis,'navigator',{value:{mediaDevices:media},configurable:true});
@@ -41,7 +41,7 @@ test('Late microphone permission, navigation, rerecording and page exit discard 
     assert.equal(JSON.parse(storage.get('mandarim-rotina:v1')).reviews['rotina-01'],1,'Double click cannot duplicate a review');
     const delayed=get('record').onclick();get('next').onclick();resolvePermission(newStream());await delayed;
     assert.equal(stops,1,'Late permission immediately closes its stream');assert.equal(instances,0);
-    media.getUserMedia=async()=>newStream();await get('record').onclick();assert.equal(instances,1);
+    media.getUserMedia=async constraints=>{assert.equal(constraints.audio.autoGainControl.ideal,true);assert.equal(constraints.audio.noiseSuppression.ideal,false);return newStream();};await get('record').onclick();assert.equal(instances,1);
     get('stop').onclick();await turn();assert.equal(activeURLs.size,1);assert.equal(get('mine').hidden,false);
     assert(!storage.get('mandarim-rotina:v1').includes('blob:'),'Storage contains no recording');
     get('next').onclick();assert.equal(activeURLs.size,0);assert.equal(get('mine').hidden,true);

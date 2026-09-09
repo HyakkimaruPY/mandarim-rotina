@@ -18,13 +18,18 @@ export function features(samples,sampleRate){
   // 8 kHz is enough for this 70–500 Hz contour estimate. Averaging reduces aliasing.
   const factor=Math.max(1,Math.floor(sampleRate/8000)),sr=sampleRate/factor;
   const x=new Float32Array(Math.floor(samples.length/factor));
+  let dc=0;for(const n of samples)dc+=n;dc/=samples.length||1;
   let clipped=0;for(let i=0;i<samples.length;i++)if(Math.abs(samples[i])>.985)clipped++;
-  for(let i=0;i<x.length;i++){let s=0;for(let j=0;j<factor;j++)s+=samples[i*factor+j];x[i]=s/factor;}
+  let samplePeak=0;
+  for(let i=0;i<x.length;i++){let s=0;for(let j=0;j<factor;j++)s+=samples[i*factor+j]-dc;x[i]=s/factor;samplePeak=Math.max(samplePeak,Math.abs(x[i]));}
+  if(samplePeak<.00001)throw Error('Não há sinal suficiente. Confira o microfone e tente novamente.');
+  // Normalize before VAD and pitch: quiet, clean speech should retain its contour.
+  for(let i=0;i<x.length;i++)x[i]/=samplePeak;
   const hop=Math.round(sr*.02),win=Math.round(sr*.04),rms=[],f0=[];
   for(let i=0;i+win<=x.length;i+=hop){let e=0;for(let k=i;k<i+win;k++)e+=x[k]*x[k];rms.push(Math.sqrt(e/win));}
-  const peak=Math.max(0,...rms),threshold=Math.max(.004,peak*.09);
+  const peak=Math.max(0,...rms),threshold=peak*.09;
   const start=rms.findIndex(v=>v>threshold),end=rms.findLastIndex(v=>v>threshold);
-  if(start<0||end-start<8||peak<.009)throw Error('Não encontrei uma fala clara. Aproxime o microfone e tente novamente.');
+  if(start<0||end-start<8)throw Error('A fala ficou curta demais para comparar. Tente a frase inteira.');
   for(let k=start;k<=end;k++)f0.push(rms[k]>threshold?pitch(x.subarray(k*hop,k*hop+win),sr):0);
   const voiced=f0.filter(Boolean),baseline=median(voiced);
   return {duration:(end-start+2)*.02,energy:rms.slice(start,end+1).map(v=>v/peak),pitch:f0.map(v=>v?12*Math.log2(v/baseline):null),voiced:voiced.length/f0.length,clipping:clipped/samples.length};
