@@ -32,7 +32,7 @@ jobs:
         run: |
           node --check dist/app.mjs
           node --check dist/analysis.mjs
-          node --test tests/analysis.test.mjs
+          node --test tests/*.test.mjs
           python scripts/validate.py --audio
       - uses: actions/upload-artifact@v4
         with:

@@ -35,10 +35,10 @@ Para abrir localmente: `python -m http.server 8000 --directory dist`. Sem gerar 
 ```sh
 python scripts/validate.py
 node --check dist/app.mjs
-node --test tests/analysis.test.mjs
+node --test tests/*.test.mjs
 python scripts/generate_audio.py
 python scripts/validate.py --audio
 ```
 
-Os testes acústicos cobrem silêncio, identidade, duração, normalização de volume e contorno ausente. Eles não substituem validação fonética por falante humano nem testes com microfone em aparelhos reais.
+Os testes acústicos cobrem silêncio, identidade, duração, normalização de volume e contorno ausente. O teste de integração do gravador cobre permissão tardia, navegação, nova gravação, saída da página, descarte de URLs e contagem de revisões. Eles não substituem validação fonética por falante humano nem testes com microfone em aparelhos reais.
 This is a simple storage of my study
