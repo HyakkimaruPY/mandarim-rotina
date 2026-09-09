@@ -5,10 +5,11 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
-  group: pages
+  group: mandarim-pages
   cancel-in-progress: false
 jobs:
   build:
@@ -55,6 +56,33 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Wait for automatic branch publication
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const site = await github.request('GET /repos/{owner}/{repo}/pages', context.repo);
+            if (site.data.build_type === 'workflow') {
+              core.info('Pages uses GitHub Actions; no branch build to wait for.');
+              return;
+            }
+            core.info('Waiting for automatic branch publication before deploying the application.');
+            for (let attempt = 0; attempt < 30; attempt++) {
+              const {data} = await github.rest.actions.listWorkflowRunsForRepo({
+                ...context.repo, head_sha: context.sha, per_page: 100
+              });
+              const automatic = data.workflow_runs.filter(run =>
+                run.id !== context.runId && run.name === 'pages build and deployment');
+              if (automatic.length && automatic.every(run => run.status === 'completed')) {
+                core.info('Automatic branch publication finished. Publishing the application last.');
+                return;
+              }
+              if (!automatic.length && attempt >= 3) {
+                core.info('No automatic branch publication found for this commit.');
+                return;
+              }
+              await new Promise(resolve => setTimeout(resolve, 10000));
+            }
+            core.setFailed('Automatic branch publication is still running. Retry this deployment after it finishes.');
       - uses: actions/configure-pages@v5
         with:
           enablement: true
@@ -63,3 +91,36 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: ${{ needs.build.outputs.pages-artifact }}
+      - name: Verify live application and audio
+        env:
+          PAGES_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          python - <<'PY'
+          import os, json, time, urllib.request
+          base = os.environ['PAGES_URL'].rstrip('/') + '/'
+          def read(path):
+              url = base + path + '?build=' + os.environ['GITHUB_SHA']
+              with urllib.request.urlopen(url, timeout=20) as response:
+                  assert response.status == 200
+                  return response.read()
+          for attempt in range(12):
+              try:
+                  html = read('').decode()
+                  assert 'id="workspace"' in html, 'The public page is not the practice application'
+                  content = json.loads(read('content.json'))
+                  phrases = [p for island in content['islands'] for p in island['phrases']]
+                  assert len(phrases) == 150
+                  manifest = json.loads(read('audio/manifest.json'))
+                  assert len(manifest) == 150
+                  for island in content['islands']:
+                      for phrase in [island['phrases'][0], island['phrases'][-1]]:
+                          assert len(read(phrase['audio'])) > 1500
+                  print('LIVE OK: practice application, 150 phrases, 150 audio entries and 10 served MP3 samples')
+                  print(base)
+                  break
+              except Exception as error:
+                  if attempt == 11:
+                      raise
+                  print(f'Waiting for Pages propagation: {error}')
+                  time.sleep(10)
+          PY
