@@ -17,7 +17,8 @@
           "scene": "Começar o dia",
           "cue": "Tom tranquilo, de quem acabou de acordar.",
           "register": "Conversa",
-          "audio": "audio/rotina-01.mp3"
+          "audio": "audio/rotina-01.mp3",
+          "audioVersion": "a4c37265f807"
         },
         {
           "id": "rotina-02",
@@ -28,7 +29,8 @@
           "scene": "Começar o dia",
           "cue": "Tom tranquilo, de quem acabou de acordar.",
           "register": "Conversa",
-          "audio": "audio/rotina-02.mp3"
+          "audio": "audio/rotina-02.mp3",
+          "audioVersion": "6701c10539a5"
         },
         {
           "id": "rotina-03",
@@ -39,7 +41,8 @@
           "scene": "Começar o dia",
           "cue": "Tom tranquilo, de quem acabou de acordar.",
           "register": "Conversa",
-          "audio": "audio/rotina-03.mp3"
+          "audio": "audio/rotina-03.mp3",
+          "audioVersion": "e8087c1f9942"
         },
         {
           "id": "rotina-04",
@@ -50,7 +53,8 @@
           "scene": "Começar o dia",
           "cue": "Tom tranquilo, de quem acabou de acordar.",
           "register": "Conversa",
-          "audio": "audio/rotina-04.mp3"
+          "audio": "audio/rotina-04.mp3",
+          "audioVersion": "a8d66a219252"
         },
         {
           "id": "rotina-05",
@@ -61,7 +65,8 @@
           "scene": "Começar o dia",
           "cue": "Tom tranquilo, de quem acabou de acordar.",
           "register": "Conversa",
-          "audio": "audio/rotina-05.mp3"
+          "audio": "audio/rotina-05.mp3",
+          "audioVersion": "ef79e1fc9c41"
         },
         {
           "id": "rotina-06",
@@ -72,7 +77,8 @@
           "scene": "Uma pausa para o mandarim",
           "cue": "Curiosidade; fale como se estivesse pensando em voz alta.",
           "register": "Conversa",
-          "audio": "audio/rotina-06.mp3"
+          "audio": "audio/rotina-06.mp3",
+          "audioVersion": "5acb3ad7963f"
         },
         {
           "id": "rotina-07",
@@ -83,7 +89,8 @@
           "scene": "Uma pausa para o mandarim",
           "cue": "Curiosidade; fale como se estivesse pensando em voz alta.",
           "register": "Conversa",
-          "audio": "audio/rotina-07.mp3"
+          "audio": "audio/rotina-07.mp3",
+          "audioVersion": "f6cd827c471f"
         },
         {
           "id": "rotina-08",
@@ -94,7 +101,8 @@
           "scene": "Uma pausa para o mandarim",
           "cue": "Curiosidade; fale como se estivesse pensando em voz alta.",
           "register": "Conversa",
-          "audio": "audio/rotina-08.mp3"
+          "audio": "audio/rotina-08.mp3",
+          "audioVersion": "4f39683ba833"
         },
         {
           "id": "rotina-09",
@@ -105,7 +113,8 @@
           "scene": "Uma pausa para o mandarim",
           "cue": "Curiosidade; fale como se estivesse pensando em voz alta.",
           "register": "Conversa",
-          "audio": "audio/rotina-09.mp3"
+          "audio": "audio/rotina-09.mp3",
+          "audioVersion": "05e814003fa8"
         },
         {
           "id": "rotina-10",
@@ -116,7 +125,8 @@
           "scene": "Uma pausa para o mandarim",
           "cue": "Curiosidade; fale como se estivesse pensando em voz alta.",
           "register": "Conversa",
-          "audio": "audio/rotina-10.mp3"
+          "audio": "audio/rotina-10.mp3",
+          "audioVersion": "25f4ffaecfc7"
         },
         {
           "id": "rotina-11",
@@ -127,7 +137,8 @@
           "scene": "Ouvir e tentar de novo",
           "cue": "Pedido amigável, sem recitar palavra por palavra.",
           "register": "Conversa",
-          "audio": "audio/rotina-11.mp3"
+          "audio": "audio/rotina-11.mp3",
+          "audioVersion": "c355382932bd"
         },
         {
           "id": "rotina-12",
@@ -138,7 +149,8 @@
           "scene": "Ouvir e tentar de novo",
           "cue": "Pedido amigável, sem recitar palavra por palavra.",
           "register": "Conversa",
-          "audio": "audio/rotina-12.mp3"
+          "audio": "audio/rotina-12.mp3",
+          "audioVersion": "47b362cc022b"
         },
         {
           "id": "rotina-13",
@@ -149,7 +161,8 @@
           "scene": "Ouvir e tentar de novo",
           "cue": "Pedido amigável, sem recitar palavra por palavra.",
           "register": "Conversa",
-          "audio": "audio/rotina-13.mp3"
+          "audio": "audio/rotina-13.mp3",
+          "audioVersion": "f3534a4b0307"
         },
         {
           "id": "rotina-14",
@@ -160,7 +173,8 @@
           "scene": "Ouvir e tentar de novo",
           "cue": "Pedido amigável, sem recitar palavra por palavra.",
           "register": "Conversa",
-          "audio": "audio/rotina-14.mp3"
+          "audio": "audio/rotina-14.mp3",
+          "audioVersion": "d2a29127ff1c"
         },
         {
           "id": "rotina-15",
@@ -171,7 +185,8 @@
           "scene": "Ouvir e tentar de novo",
           "cue": "Pedido amigável, sem recitar palavra por palavra.",
           "register": "Conversa",
-          "audio": "audio/rotina-15.mp3"
+          "audio": "audio/rotina-15.mp3",
+          "audioVersion": "8ce633c1c219"
         },
         {
           "id": "rotina-16",
@@ -182,7 +197,8 @@
           "scene": "Resolver o básico",
           "cue": "Conversa leve, com pausas entre as ações.",
           "register": "Conversa",
-          "audio": "audio/rotina-16.mp3"
+          "audio": "audio/rotina-16.mp3",
+          "audioVersion": "1c639cd47df8"
         },
         {
           "id": "rotina-17",
@@ -193,7 +209,8 @@
           "scene": "Resolver o básico",
           "cue": "Conversa leve, com pausas entre as ações.",
           "register": "Conversa",
-          "audio": "audio/rotina-17.mp3"
+          "audio": "audio/rotina-17.mp3",
+          "audioVersion": "74de94619633"
         },
         {
           "id": "rotina-18",
@@ -204,7 +221,8 @@
           "scene": "Resolver o básico",
           "cue": "Conversa leve, com pausas entre as ações.",
           "register": "Conversa",
-          "audio": "audio/rotina-18.mp3"
+          "audio": "audio/rotina-18.mp3",
+          "audioVersion": "cfa74a0a95fe"
         },
         {
           "id": "rotina-19",
@@ -215,7 +233,8 @@
           "scene": "Resolver o básico",
           "cue": "Conversa leve, com pausas entre as ações.",
           "register": "Conversa",
-          "audio": "audio/rotina-19.mp3"
+          "audio": "audio/rotina-19.mp3",
+          "audioVersion": "8e8ff63d9e9d"
         },
         {
           "id": "rotina-20",
@@ -226,7 +245,8 @@
           "scene": "Resolver o básico",
           "cue": "Conversa leve, com pausas entre as ações.",
           "register": "Conversa",
-          "audio": "audio/rotina-20.mp3"
+          "audio": "audio/rotina-20.mp3",
+          "audioVersion": "10500182b85e"
         },
         {
           "id": "rotina-21",
@@ -237,7 +257,8 @@
           "scene": "Encerrar o dia",
           "cue": "Alívio e cansaço suave.",
           "register": "Conversa",
-          "audio": "audio/rotina-21.mp3"
+          "audio": "audio/rotina-21.mp3",
+          "audioVersion": "0cd14c60831c"
         },
         {
           "id": "rotina-22",
@@ -248,7 +269,8 @@
           "scene": "Encerrar o dia",
           "cue": "Alívio e cansaço suave.",
           "register": "Conversa",
-          "audio": "audio/rotina-22.mp3"
+          "audio": "audio/rotina-22.mp3",
+          "audioVersion": "e182f7675926"
         },
         {
           "id": "rotina-23",
@@ -259,7 +281,8 @@
           "scene": "Encerrar o dia",
           "cue": "Alívio e cansaço suave.",
           "register": "Conversa",
-          "audio": "audio/rotina-23.mp3"
+          "audio": "audio/rotina-23.mp3",
+          "audioVersion": "34786f39daa6"
         },
         {
           "id": "rotina-24",
@@ -270,7 +293,8 @@
           "scene": "Encerrar o dia",
           "cue": "Alívio e cansaço suave.",
           "register": "Conversa",
-          "audio": "audio/rotina-24.mp3"
+          "audio": "audio/rotina-24.mp3",
+          "audioVersion": "345db8e163e8"
         },
         {
           "id": "rotina-25",
@@ -281,7 +305,8 @@
           "scene": "Encerrar o dia",
           "cue": "Alívio e cansaço suave.",
           "register": "Conversa",
-          "audio": "audio/rotina-25.mp3"
+          "audio": "audio/rotina-25.mp3",
+          "audioVersion": "f73bc9aae229"
         },
         {
           "id": "rotina-26",
@@ -292,7 +317,8 @@
           "scene": "Diário · um dia possível",
           "cue": "Relato pessoal, com ritmo de conversa.",
           "register": "Leitura e escrita",
-          "audio": "audio/rotina-26.mp3"
+          "audio": "audio/rotina-26.mp3",
+          "audioVersion": "246019b972e5"
         },
         {
           "id": "rotina-27",
@@ -303,7 +329,8 @@
           "scene": "Diário · um dia possível",
           "cue": "Relato pessoal, com ritmo de conversa.",
           "register": "Leitura e escrita",
-          "audio": "audio/rotina-27.mp3"
+          "audio": "audio/rotina-27.mp3",
+          "audioVersion": "b98f8c6eef3a"
         },
         {
           "id": "rotina-28",
@@ -314,7 +341,8 @@
           "scene": "Diário · um dia possível",
           "cue": "Relato pessoal, com ritmo de conversa.",
           "register": "Leitura e escrita",
-          "audio": "audio/rotina-28.mp3"
+          "audio": "audio/rotina-28.mp3",
+          "audioVersion": "a8e59f3b5bcd"
         },
         {
           "id": "rotina-29",
@@ -325,7 +353,8 @@
           "scene": "Diário · um dia possível",
           "cue": "Relato pessoal, com ritmo de conversa.",
           "register": "Leitura e escrita",
-          "audio": "audio/rotina-29.mp3"
+          "audio": "audio/rotina-29.mp3",
+          "audioVersion": "90778cd3daa4"
         },
         {
           "id": "rotina-30",
@@ -336,7 +365,8 @@
           "scene": "Diário · um dia possível",
           "cue": "Relato pessoal, com ritmo de conversa.",
           "register": "Leitura e escrita",
-          "audio": "audio/rotina-30.mp3"
+          "audio": "audio/rotina-30.mp3",
+          "audioVersion": "4337ae0ebd29"
         }
       ],
       "schemaVersion": 1,
@@ -372,7 +402,8 @@
           "scene": "Escolher o que ouvir",
           "cue": "Interesse tranquilo; uma conversa sobre preferências.",
           "register": "Conversa",
-          "audio": "audio/musica-01.mp3"
+          "audio": "audio/musica-01.mp3",
+          "audioVersion": "a7595142efdd"
         },
         {
           "id": "musica-02",
@@ -383,7 +414,8 @@
           "scene": "Escolher o que ouvir",
           "cue": "Interesse tranquilo; uma conversa sobre preferências.",
           "register": "Conversa",
-          "audio": "audio/musica-02.mp3"
+          "audio": "audio/musica-02.mp3",
+          "audioVersion": "fc6dc6e6d7a2"
         },
         {
           "id": "musica-03",
@@ -394,7 +426,8 @@
           "scene": "Escolher o que ouvir",
           "cue": "Interesse tranquilo; uma conversa sobre preferências.",
           "register": "Conversa",
-          "audio": "audio/musica-03.mp3"
+          "audio": "audio/musica-03.mp3",
+          "audioVersion": "26c6baf94ca7"
         },
         {
           "id": "musica-04",
@@ -405,7 +438,8 @@
           "scene": "Escolher o que ouvir",
           "cue": "Interesse tranquilo; uma conversa sobre preferências.",
           "register": "Conversa",
-          "audio": "audio/musica-04.mp3"
+          "audio": "audio/musica-04.mp3",
+          "audioVersion": "75992b1d7e50"
         },
         {
           "id": "musica-05",
@@ -416,7 +450,8 @@
           "scene": "Escolher o que ouvir",
           "cue": "Interesse tranquilo; uma conversa sobre preferências.",
           "register": "Conversa",
-          "audio": "audio/musica-05.mp3"
+          "audio": "audio/musica-05.mp3",
+          "audioVersion": "457b8b35359d"
         },
         {
           "id": "musica-06",
@@ -427,7 +462,8 @@
           "scene": "A voz e o arranjo",
           "cue": "Admiração discreta, sem exagerar cada palavra.",
           "register": "Conversa",
-          "audio": "audio/musica-06.mp3"
+          "audio": "audio/musica-06.mp3",
+          "audioVersion": "afbb5be79094"
         },
         {
           "id": "musica-07",
@@ -438,7 +474,8 @@
           "scene": "A voz e o arranjo",
           "cue": "Admiração discreta, sem exagerar cada palavra.",
           "register": "Conversa",
-          "audio": "audio/musica-07.mp3"
+          "audio": "audio/musica-07.mp3",
+          "audioVersion": "ba2c404ed493"
         },
         {
           "id": "musica-08",
@@ -449,7 +486,8 @@
           "scene": "A voz e o arranjo",
           "cue": "Admiração discreta, sem exagerar cada palavra.",
           "register": "Conversa",
-          "audio": "audio/musica-08.mp3"
+          "audio": "audio/musica-08.mp3",
+          "audioVersion": "3299a10f070b"
         },
         {
           "id": "musica-09",
@@ -460,7 +498,8 @@
           "scene": "A voz e o arranjo",
           "cue": "Admiração discreta, sem exagerar cada palavra.",
           "register": "Conversa",
-          "audio": "audio/musica-09.mp3"
+          "audio": "audio/musica-09.mp3",
+          "audioVersion": "78d8f54c547b"
         },
         {
           "id": "musica-10",
@@ -471,7 +510,8 @@
           "scene": "A voz e o arranjo",
           "cue": "Admiração discreta, sem exagerar cada palavra.",
           "register": "Conversa",
-          "audio": "audio/musica-10.mp3"
+          "audio": "audio/musica-10.mp3",
+          "audioVersion": "d34c194ce10c"
         },
         {
           "id": "musica-11",
@@ -482,7 +522,8 @@
           "scene": "Encontrar o sentido",
           "cue": "Curiosidade e uma pequena descoberta.",
           "register": "Conversa",
-          "audio": "audio/musica-11.mp3"
+          "audio": "audio/musica-11.mp3",
+          "audioVersion": "2f18dfe98d48"
         },
         {
           "id": "musica-12",
@@ -493,7 +534,8 @@
           "scene": "Encontrar o sentido",
           "cue": "Curiosidade e uma pequena descoberta.",
           "register": "Conversa",
-          "audio": "audio/musica-12.mp3"
+          "audio": "audio/musica-12.mp3",
+          "audioVersion": "7b43668429c1"
         },
         {
           "id": "musica-13",
@@ -504,7 +546,8 @@
           "scene": "Encontrar o sentido",
           "cue": "Curiosidade e uma pequena descoberta.",
           "register": "Conversa",
-          "audio": "audio/musica-13.mp3"
+          "audio": "audio/musica-13.mp3",
+          "audioVersion": "2b51e09bc46b"
         },
         {
           "id": "musica-14",
@@ -515,7 +558,8 @@
           "scene": "Encontrar o sentido",
           "cue": "Curiosidade e uma pequena descoberta.",
           "register": "Conversa",
-          "audio": "audio/musica-14.mp3"
+          "audio": "audio/musica-14.mp3",
+          "audioVersion": "b3f000d155c5"
         },
         {
           "id": "musica-15",
@@ -526,7 +570,8 @@
           "scene": "Encontrar o sentido",
           "cue": "Curiosidade e uma pequena descoberta.",
           "register": "Conversa",
-          "audio": "audio/musica-15.mp3"
+          "audio": "audio/musica-15.mp3",
+          "audioVersion": "b9de1205593a"
         },
         {
           "id": "musica-16",
@@ -537,7 +582,8 @@
           "scene": "Ouvir junto",
           "cue": "Convite amigável; perguntas abertas.",
           "register": "Conversa",
-          "audio": "audio/musica-16.mp3"
+          "audio": "audio/musica-16.mp3",
+          "audioVersion": "a99d0bfcbef8"
         },
         {
           "id": "musica-17",
@@ -548,7 +594,8 @@
           "scene": "Ouvir junto",
           "cue": "Convite amigável; perguntas abertas.",
           "register": "Conversa",
-          "audio": "audio/musica-17.mp3"
+          "audio": "audio/musica-17.mp3",
+          "audioVersion": "dae62d684d90"
         },
         {
           "id": "musica-18",
@@ -559,7 +606,8 @@
           "scene": "Ouvir junto",
           "cue": "Convite amigável; perguntas abertas.",
           "register": "Conversa",
-          "audio": "audio/musica-18.mp3"
+          "audio": "audio/musica-18.mp3",
+          "audioVersion": "bf6880cdd741"
         },
         {
           "id": "musica-19",
@@ -570,7 +618,8 @@
           "scene": "Ouvir junto",
           "cue": "Convite amigável; perguntas abertas.",
           "register": "Conversa",
-          "audio": "audio/musica-19.mp3"
+          "audio": "audio/musica-19.mp3",
+          "audioVersion": "03ed39209c5d"
         },
         {
           "id": "musica-20",
@@ -581,7 +630,8 @@
           "scene": "Ouvir junto",
           "cue": "Convite amigável; perguntas abertas.",
           "register": "Conversa",
-          "audio": "audio/musica-20.mp3"
+          "audio": "audio/musica-20.mp3",
+          "audioVersion": "29b8bd55f94c"
         },
         {
           "id": "musica-21",
@@ -592,7 +642,8 @@
           "scene": "Uma lembrança na música",
           "cue": "Nostalgia suave, mantendo os tons das palavras.",
           "register": "Conversa",
-          "audio": "audio/musica-21.mp3"
+          "audio": "audio/musica-21.mp3",
+          "audioVersion": "f919f16e8410"
         },
         {
           "id": "musica-22",
@@ -603,7 +654,8 @@
           "scene": "Uma lembrança na música",
           "cue": "Nostalgia suave, mantendo os tons das palavras.",
           "register": "Conversa",
-          "audio": "audio/musica-22.mp3"
+          "audio": "audio/musica-22.mp3",
+          "audioVersion": "e94c5d69af19"
         },
         {
           "id": "musica-23",
@@ -614,7 +666,8 @@
           "scene": "Uma lembrança na música",
           "cue": "Nostalgia suave, mantendo os tons das palavras.",
           "register": "Conversa",
-          "audio": "audio/musica-23.mp3"
+          "audio": "audio/musica-23.mp3",
+          "audioVersion": "30ec29cf924b"
         },
         {
           "id": "musica-24",
@@ -625,7 +678,8 @@
           "scene": "Uma lembrança na música",
           "cue": "Nostalgia suave, mantendo os tons das palavras.",
           "register": "Conversa",
-          "audio": "audio/musica-24.mp3"
+          "audio": "audio/musica-24.mp3",
+          "audioVersion": "3f3bccadac3b"
         },
         {
           "id": "musica-25",
@@ -636,7 +690,8 @@
           "scene": "Uma lembrança na música",
           "cue": "Nostalgia suave, mantendo os tons das palavras.",
           "register": "Conversa",
-          "audio": "audio/musica-25.mp3"
+          "audio": "audio/musica-25.mp3",
+          "audioVersion": "a53ebb643482"
         },
         {
           "id": "musica-26",
@@ -647,7 +702,8 @@
           "scene": "Diário · depois de ouvir",
           "cue": "Reflexão íntima, com pausas naturais.",
           "register": "Leitura e escrita",
-          "audio": "audio/musica-26.mp3"
+          "audio": "audio/musica-26.mp3",
+          "audioVersion": "4effceed7215"
         },
         {
           "id": "musica-27",
@@ -658,7 +714,8 @@
           "scene": "Diário · depois de ouvir",
           "cue": "Reflexão íntima, com pausas naturais.",
           "register": "Leitura e escrita",
-          "audio": "audio/musica-27.mp3"
+          "audio": "audio/musica-27.mp3",
+          "audioVersion": "17195e5cefa5"
         },
         {
           "id": "musica-28",
@@ -669,7 +726,8 @@
           "scene": "Diário · depois de ouvir",
           "cue": "Reflexão íntima, com pausas naturais.",
           "register": "Leitura e escrita",
-          "audio": "audio/musica-28.mp3"
+          "audio": "audio/musica-28.mp3",
+          "audioVersion": "90a5063907fe"
         },
         {
           "id": "musica-29",
@@ -680,7 +738,8 @@
           "scene": "Diário · depois de ouvir",
           "cue": "Reflexão íntima, com pausas naturais.",
           "register": "Leitura e escrita",
-          "audio": "audio/musica-29.mp3"
+          "audio": "audio/musica-29.mp3",
+          "audioVersion": "87f9d3f1c162"
         },
         {
           "id": "musica-30",
@@ -691,7 +750,8 @@
           "scene": "Diário · depois de ouvir",
           "cue": "Reflexão íntima, com pausas naturais.",
           "register": "Leitura e escrita",
-          "audio": "audio/musica-30.mp3"
+          "audio": "audio/musica-30.mp3",
+          "audioVersion": "670affe1828d"
         }
       ],
       "schemaVersion": 1,
@@ -729,7 +789,8 @@
           "scene": "Escolher um drama",
           "cue": "Conversa curiosa e descontraída.",
           "register": "Conversa",
-          "audio": "audio/historias-01.mp3"
+          "audio": "audio/historias-01.mp3",
+          "audioVersion": "f75ffa519188"
         },
         {
           "id": "historias-02",
@@ -740,7 +801,8 @@
           "scene": "Escolher um drama",
           "cue": "Conversa curiosa e descontraída.",
           "register": "Conversa",
-          "audio": "audio/historias-02.mp3"
+          "audio": "audio/historias-02.mp3",
+          "audioVersion": "acde9b9b232a"
         },
         {
           "id": "historias-03",
@@ -751,7 +813,8 @@
           "scene": "Escolher um drama",
           "cue": "Conversa curiosa e descontraída.",
           "register": "Conversa",
-          "audio": "audio/historias-03.mp3"
+          "audio": "audio/historias-03.mp3",
+          "audioVersion": "231fcfdd0dc4"
         },
         {
           "id": "historias-04",
@@ -762,7 +825,8 @@
           "scene": "Escolher um drama",
           "cue": "Conversa curiosa e descontraída.",
           "register": "Conversa",
-          "audio": "audio/historias-04.mp3"
+          "audio": "audio/historias-04.mp3",
+          "audioVersion": "474e44c360ef"
         },
         {
           "id": "historias-05",
@@ -773,7 +837,8 @@
           "scene": "Escolher um drama",
           "cue": "Conversa curiosa e descontraída.",
           "register": "Conversa",
-          "audio": "audio/historias-05.mp3"
+          "audio": "audio/historias-05.mp3",
+          "audioVersion": "01bfca9ac51d"
         },
         {
           "id": "historias-06",
@@ -784,7 +849,8 @@
           "scene": "Acompanhar a cena",
           "cue": "Dúvida real: pergunte sem transformar tudo em exclamação.",
           "register": "Conversa",
-          "audio": "audio/historias-06.mp3"
+          "audio": "audio/historias-06.mp3",
+          "audioVersion": "cad68826430e"
         },
         {
           "id": "historias-07",
@@ -795,7 +861,8 @@
           "scene": "Acompanhar a cena",
           "cue": "Dúvida real: pergunte sem transformar tudo em exclamação.",
           "register": "Conversa",
-          "audio": "audio/historias-07.mp3"
+          "audio": "audio/historias-07.mp3",
+          "audioVersion": "9457b3e7b6a7"
         },
         {
           "id": "historias-08",
@@ -806,7 +873,8 @@
           "scene": "Acompanhar a cena",
           "cue": "Dúvida real: pergunte sem transformar tudo em exclamação.",
           "register": "Conversa",
-          "audio": "audio/historias-08.mp3"
+          "audio": "audio/historias-08.mp3",
+          "audioVersion": "0a954aa6ac06"
         },
         {
           "id": "historias-09",
@@ -817,7 +885,8 @@
           "scene": "Acompanhar a cena",
           "cue": "Dúvida real: pergunte sem transformar tudo em exclamação.",
           "register": "Conversa",
-          "audio": "audio/historias-09.mp3"
+          "audio": "audio/historias-09.mp3",
+          "audioVersion": "5843237140d3"
         },
         {
           "id": "historias-10",
@@ -828,7 +897,8 @@
           "scene": "Acompanhar a cena",
           "cue": "Dúvida real: pergunte sem transformar tudo em exclamação.",
           "register": "Conversa",
-          "audio": "audio/historias-10.mp3"
+          "audio": "audio/historias-10.mp3",
+          "audioVersion": "a65be7723ba9"
         },
         {
           "id": "historias-11",
@@ -839,7 +909,8 @@
           "scene": "Entender por contexto",
           "cue": "Pequenos momentos de compreensão.",
           "register": "Conversa",
-          "audio": "audio/historias-11.mp3"
+          "audio": "audio/historias-11.mp3",
+          "audioVersion": "a0a6e30fa13f"
         },
         {
           "id": "historias-12",
@@ -850,7 +921,8 @@
           "scene": "Entender por contexto",
           "cue": "Pequenos momentos de compreensão.",
           "register": "Conversa",
-          "audio": "audio/historias-12.mp3"
+          "audio": "audio/historias-12.mp3",
+          "audioVersion": "292edcbcc3e7"
         },
         {
           "id": "historias-13",
@@ -861,7 +933,8 @@
           "scene": "Entender por contexto",
           "cue": "Pequenos momentos de compreensão.",
           "register": "Conversa",
-          "audio": "audio/historias-13.mp3"
+          "audio": "audio/historias-13.mp3",
+          "audioVersion": "c94fe2c0fda2"
         },
         {
           "id": "historias-14",
@@ -872,7 +945,8 @@
           "scene": "Entender por contexto",
           "cue": "Pequenos momentos de compreensão.",
           "register": "Conversa",
-          "audio": "audio/historias-14.mp3"
+          "audio": "audio/historias-14.mp3",
+          "audioVersion": "e91dee82c33d"
         },
         {
           "id": "historias-15",
@@ -883,7 +957,8 @@
           "scene": "Entender por contexto",
           "cue": "Pequenos momentos de compreensão.",
           "register": "Conversa",
-          "audio": "audio/historias-15.mp3"
+          "audio": "audio/historias-15.mp3",
+          "audioVersion": "075910fdcebc"
         },
         {
           "id": "historias-16",
@@ -894,7 +969,8 @@
           "scene": "Conversar sobre xianxia",
           "cue": "Entusiasmo contido, como entre amigos.",
           "register": "Conversa",
-          "audio": "audio/historias-16.mp3"
+          "audio": "audio/historias-16.mp3",
+          "audioVersion": "ecde87a79ae1"
         },
         {
           "id": "historias-17",
@@ -905,7 +981,8 @@
           "scene": "Conversar sobre xianxia",
           "cue": "Entusiasmo contido, como entre amigos.",
           "register": "Conversa",
-          "audio": "audio/historias-17.mp3"
+          "audio": "audio/historias-17.mp3",
+          "audioVersion": "75608a324aa9"
         },
         {
           "id": "historias-18",
@@ -916,7 +993,8 @@
           "scene": "Conversar sobre xianxia",
           "cue": "Entusiasmo contido, como entre amigos.",
           "register": "Conversa",
-          "audio": "audio/historias-18.mp3"
+          "audio": "audio/historias-18.mp3",
+          "audioVersion": "e708f508fbac"
         },
         {
           "id": "historias-19",
@@ -927,7 +1005,8 @@
           "scene": "Conversar sobre xianxia",
           "cue": "Entusiasmo contido, como entre amigos.",
           "register": "Conversa",
-          "audio": "audio/historias-19.mp3"
+          "audio": "audio/historias-19.mp3",
+          "audioVersion": "0cdbed985f89"
         },
         {
           "id": "historias-20",
@@ -938,7 +1017,8 @@
           "scene": "Conversar sobre xianxia",
           "cue": "Entusiasmo contido, como entre amigos.",
           "register": "Conversa",
-          "audio": "audio/historias-20.mp3"
+          "audio": "audio/historias-20.mp3",
+          "audioVersion": "513b4c7f86ff"
         },
         {
           "id": "historias-21",
@@ -949,7 +1029,8 @@
           "scene": "Sem dar spoiler",
           "cue": "Expectativa, surpresa e pedidos leves.",
           "register": "Conversa",
-          "audio": "audio/historias-21.mp3"
+          "audio": "audio/historias-21.mp3",
+          "audioVersion": "130f3e952c53"
         },
         {
           "id": "historias-22",
@@ -960,7 +1041,8 @@
           "scene": "Sem dar spoiler",
           "cue": "Expectativa, surpresa e pedidos leves.",
           "register": "Conversa",
-          "audio": "audio/historias-22.mp3"
+          "audio": "audio/historias-22.mp3",
+          "audioVersion": "a2e460563fc6"
         },
         {
           "id": "historias-23",
@@ -971,7 +1053,8 @@
           "scene": "Sem dar spoiler",
           "cue": "Expectativa, surpresa e pedidos leves.",
           "register": "Conversa",
-          "audio": "audio/historias-23.mp3"
+          "audio": "audio/historias-23.mp3",
+          "audioVersion": "e5fbf2c9cc3c"
         },
         {
           "id": "historias-24",
@@ -982,7 +1065,8 @@
           "scene": "Sem dar spoiler",
           "cue": "Expectativa, surpresa e pedidos leves.",
           "register": "Conversa",
-          "audio": "audio/historias-24.mp3"
+          "audio": "audio/historias-24.mp3",
+          "audioVersion": "4374d33148d4"
         },
         {
           "id": "historias-25",
@@ -993,7 +1077,8 @@
           "scene": "Sem dar spoiler",
           "cue": "Expectativa, surpresa e pedidos leves.",
           "register": "Conversa",
-          "audio": "audio/historias-25.mp3"
+          "audio": "audio/historias-25.mp3",
+          "audioVersion": "faffa115aa47"
         },
         {
           "id": "historias-26",
@@ -1004,7 +1089,8 @@
           "scene": "Diário · depois do episódio",
           "cue": "Reflexão sobre a história; cadência clara.",
           "register": "Leitura e escrita",
-          "audio": "audio/historias-26.mp3"
+          "audio": "audio/historias-26.mp3",
+          "audioVersion": "e02877b333e5"
         },
         {
           "id": "historias-27",
@@ -1015,7 +1101,8 @@
           "scene": "Diário · depois do episódio",
           "cue": "Reflexão sobre a história; cadência clara.",
           "register": "Leitura e escrita",
-          "audio": "audio/historias-27.mp3"
+          "audio": "audio/historias-27.mp3",
+          "audioVersion": "e4edeaae51ca"
         },
         {
           "id": "historias-28",
@@ -1026,7 +1113,8 @@
           "scene": "Diário · depois do episódio",
           "cue": "Reflexão sobre a história; cadência clara.",
           "register": "Leitura e escrita",
-          "audio": "audio/historias-28.mp3"
+          "audio": "audio/historias-28.mp3",
+          "audioVersion": "f62472f5cbd6"
         },
         {
           "id": "historias-29",
@@ -1037,7 +1125,8 @@
           "scene": "Diário · depois do episódio",
           "cue": "Reflexão sobre a história; cadência clara.",
           "register": "Leitura e escrita",
-          "audio": "audio/historias-29.mp3"
+          "audio": "audio/historias-29.mp3",
+          "audioVersion": "a22bdacc9ed3"
         },
         {
           "id": "historias-30",
@@ -1048,7 +1137,8 @@
           "scene": "Diário · depois do episódio",
           "cue": "Reflexão sobre a história; cadência clara.",
           "register": "Leitura e escrita",
-          "audio": "audio/historias-30.mp3"
+          "audio": "audio/historias-30.mp3",
+          "audioVersion": "fb93b417a5c1"
         }
       ],
       "schemaVersion": 1,
@@ -1086,7 +1176,8 @@
           "scene": "Uma ideia aparece",
           "cue": "Tom de descoberta; fale com espontaneidade.",
           "register": "Conversa",
-          "audio": "audio/arte-01.mp3"
+          "audio": "audio/arte-01.mp3",
+          "audioVersion": "16e116a23bce"
         },
         {
           "id": "arte-02",
@@ -1097,7 +1188,8 @@
           "scene": "Uma ideia aparece",
           "cue": "Tom de descoberta; fale com espontaneidade.",
           "register": "Conversa",
-          "audio": "audio/arte-02.mp3"
+          "audio": "audio/arte-02.mp3",
+          "audioVersion": "4910f5a48540"
         },
         {
           "id": "arte-03",
@@ -1108,7 +1200,8 @@
           "scene": "Uma ideia aparece",
           "cue": "Tom de descoberta; fale com espontaneidade.",
           "register": "Conversa",
-          "audio": "audio/arte-03.mp3"
+          "audio": "audio/arte-03.mp3",
+          "audioVersion": "b31b8df347bf"
         },
         {
           "id": "arte-04",
@@ -1119,7 +1212,8 @@
           "scene": "Uma ideia aparece",
           "cue": "Tom de descoberta; fale com espontaneidade.",
           "register": "Conversa",
-          "audio": "audio/arte-04.mp3"
+          "audio": "audio/arte-04.mp3",
+          "audioVersion": "ffabda25bc72"
         },
         {
           "id": "arte-05",
@@ -1130,7 +1224,8 @@
           "scene": "Uma ideia aparece",
           "cue": "Tom de descoberta; fale com espontaneidade.",
           "register": "Conversa",
-          "audio": "audio/arte-05.mp3"
+          "audio": "audio/arte-05.mp3",
+          "audioVersion": "b7a8ffb2a6a8"
         },
         {
           "id": "arte-06",
@@ -1141,7 +1236,8 @@
           "scene": "Escolher o clima",
           "cue": "Imagine que está mostrando um rascunho a alguém.",
           "register": "Conversa",
-          "audio": "audio/arte-06.mp3"
+          "audio": "audio/arte-06.mp3",
+          "audioVersion": "fc5ccead6ab4"
         },
         {
           "id": "arte-07",
@@ -1152,7 +1248,8 @@
           "scene": "Escolher o clima",
           "cue": "Imagine que está mostrando um rascunho a alguém.",
           "register": "Conversa",
-          "audio": "audio/arte-07.mp3"
+          "audio": "audio/arte-07.mp3",
+          "audioVersion": "7c7574f28818"
         },
         {
           "id": "arte-08",
@@ -1163,7 +1260,8 @@
           "scene": "Escolher o clima",
           "cue": "Imagine que está mostrando um rascunho a alguém.",
           "register": "Conversa",
-          "audio": "audio/arte-08.mp3"
+          "audio": "audio/arte-08.mp3",
+          "audioVersion": "9f859e00537f"
         },
         {
           "id": "arte-09",
@@ -1174,7 +1272,8 @@
           "scene": "Escolher o clima",
           "cue": "Imagine que está mostrando um rascunho a alguém.",
           "register": "Conversa",
-          "audio": "audio/arte-09.mp3"
+          "audio": "audio/arte-09.mp3",
+          "audioVersion": "a8dd389aec6f"
         },
         {
           "id": "arte-10",
@@ -1185,7 +1284,8 @@
           "scene": "Escolher o clima",
           "cue": "Imagine que está mostrando um rascunho a alguém.",
           "register": "Conversa",
-          "audio": "audio/arte-10.mp3"
+          "audio": "audio/arte-10.mp3",
+          "audioVersion": "e9ebd989f534"
         },
         {
           "id": "arte-11",
@@ -1196,7 +1296,8 @@
           "scene": "Olhar de novo",
           "cue": "Observação cuidadosa, sem pressa artificial.",
           "register": "Conversa",
-          "audio": "audio/arte-11.mp3"
+          "audio": "audio/arte-11.mp3",
+          "audioVersion": "4c7392d2fe77"
         },
         {
           "id": "arte-12",
@@ -1207,7 +1308,8 @@
           "scene": "Olhar de novo",
           "cue": "Observação cuidadosa, sem pressa artificial.",
           "register": "Conversa",
-          "audio": "audio/arte-12.mp3"
+          "audio": "audio/arte-12.mp3",
+          "audioVersion": "fca221722762"
         },
         {
           "id": "arte-13",
@@ -1218,7 +1320,8 @@
           "scene": "Olhar de novo",
           "cue": "Observação cuidadosa, sem pressa artificial.",
           "register": "Conversa",
-          "audio": "audio/arte-13.mp3"
+          "audio": "audio/arte-13.mp3",
+          "audioVersion": "bcc4c3be07c0"
         },
         {
           "id": "arte-14",
@@ -1229,7 +1332,8 @@
           "scene": "Olhar de novo",
           "cue": "Observação cuidadosa, sem pressa artificial.",
           "register": "Conversa",
-          "audio": "audio/arte-14.mp3"
+          "audio": "audio/arte-14.mp3",
+          "audioVersion": "13558733f352"
         },
         {
           "id": "arte-15",
@@ -1240,7 +1344,8 @@
           "scene": "Olhar de novo",
           "cue": "Observação cuidadosa, sem pressa artificial.",
           "register": "Conversa",
-          "audio": "audio/arte-15.mp3"
+          "audio": "audio/arte-15.mp3",
+          "audioVersion": "e172ee8a2f45"
         },
         {
           "id": "arte-16",
@@ -1251,7 +1356,8 @@
           "scene": "Trocar impressões",
           "cue": "Curiosidade respeitosa; espaço para outra leitura.",
           "register": "Conversa",
-          "audio": "audio/arte-16.mp3"
+          "audio": "audio/arte-16.mp3",
+          "audioVersion": "8da1c81f783d"
         },
         {
           "id": "arte-17",
@@ -1262,7 +1368,8 @@
           "scene": "Trocar impressões",
           "cue": "Curiosidade respeitosa; espaço para outra leitura.",
           "register": "Conversa",
-          "audio": "audio/arte-17.mp3"
+          "audio": "audio/arte-17.mp3",
+          "audioVersion": "00b373f15c52"
         },
         {
           "id": "arte-18",
@@ -1273,7 +1380,8 @@
           "scene": "Trocar impressões",
           "cue": "Curiosidade respeitosa; espaço para outra leitura.",
           "register": "Conversa",
-          "audio": "audio/arte-18.mp3"
+          "audio": "audio/arte-18.mp3",
+          "audioVersion": "d76471383214"
         },
         {
           "id": "arte-19",
@@ -1284,7 +1392,8 @@
           "scene": "Trocar impressões",
           "cue": "Curiosidade respeitosa; espaço para outra leitura.",
           "register": "Conversa",
-          "audio": "audio/arte-19.mp3"
+          "audio": "audio/arte-19.mp3",
+          "audioVersion": "2b94176c6b4f"
         },
         {
           "id": "arte-20",
@@ -1295,7 +1404,8 @@
           "scene": "Trocar impressões",
           "cue": "Curiosidade respeitosa; espaço para outra leitura.",
           "register": "Conversa",
-          "audio": "audio/arte-20.mp3"
+          "audio": "audio/arte-20.mp3",
+          "audioVersion": "3ec2f8fb3da1"
         },
         {
           "id": "arte-21",
@@ -1306,7 +1416,8 @@
           "scene": "Ajustar sem perder a ideia",
           "cue": "Decisão tranquila, com ênfase na mudança desejada.",
           "register": "Conversa",
-          "audio": "audio/arte-21.mp3"
+          "audio": "audio/arte-21.mp3",
+          "audioVersion": "b22f4bea5e7a"
         },
         {
           "id": "arte-22",
@@ -1317,7 +1428,8 @@
           "scene": "Ajustar sem perder a ideia",
           "cue": "Decisão tranquila, com ênfase na mudança desejada.",
           "register": "Conversa",
-          "audio": "audio/arte-22.mp3"
+          "audio": "audio/arte-22.mp3",
+          "audioVersion": "3da758ae12bd"
         },
         {
           "id": "arte-23",
@@ -1328,7 +1440,8 @@
           "scene": "Ajustar sem perder a ideia",
           "cue": "Decisão tranquila, com ênfase na mudança desejada.",
           "register": "Conversa",
-          "audio": "audio/arte-23.mp3"
+          "audio": "audio/arte-23.mp3",
+          "audioVersion": "e5324f7bba19"
         },
         {
           "id": "arte-24",
@@ -1339,7 +1452,8 @@
           "scene": "Ajustar sem perder a ideia",
           "cue": "Decisão tranquila, com ênfase na mudança desejada.",
           "register": "Conversa",
-          "audio": "audio/arte-24.mp3"
+          "audio": "audio/arte-24.mp3",
+          "audioVersion": "fccf1211e89a"
         },
         {
           "id": "arte-25",
@@ -1350,7 +1464,8 @@
           "scene": "Ajustar sem perder a ideia",
           "cue": "Decisão tranquila, com ênfase na mudança desejada.",
           "register": "Conversa",
-          "audio": "audio/arte-25.mp3"
+          "audio": "audio/arte-25.mp3",
+          "audioVersion": "18d052b49222"
         },
         {
           "id": "arte-26",
@@ -1361,7 +1476,8 @@
           "scene": "Diário · sobre criar",
           "cue": "Reflexivo, mantendo uma leitura fluida.",
           "register": "Leitura e escrita",
-          "audio": "audio/arte-26.mp3"
+          "audio": "audio/arte-26.mp3",
+          "audioVersion": "1e16b9fd4bfe"
         },
         {
           "id": "arte-27",
@@ -1372,7 +1488,8 @@
           "scene": "Diário · sobre criar",
           "cue": "Reflexivo, mantendo uma leitura fluida.",
           "register": "Leitura e escrita",
-          "audio": "audio/arte-27.mp3"
+          "audio": "audio/arte-27.mp3",
+          "audioVersion": "893c49097273"
         },
         {
           "id": "arte-28",
@@ -1383,7 +1500,8 @@
           "scene": "Diário · sobre criar",
           "cue": "Reflexivo, mantendo uma leitura fluida.",
           "register": "Leitura e escrita",
-          "audio": "audio/arte-28.mp3"
+          "audio": "audio/arte-28.mp3",
+          "audioVersion": "08491e9d27cb"
         },
         {
           "id": "arte-29",
@@ -1394,7 +1512,8 @@
           "scene": "Diário · sobre criar",
           "cue": "Reflexivo, mantendo uma leitura fluida.",
           "register": "Leitura e escrita",
-          "audio": "audio/arte-29.mp3"
+          "audio": "audio/arte-29.mp3",
+          "audioVersion": "be6cc844f7ec"
         },
         {
           "id": "arte-30",
@@ -1405,7 +1524,8 @@
           "scene": "Diário · sobre criar",
           "cue": "Reflexivo, mantendo uma leitura fluida.",
           "register": "Leitura e escrita",
-          "audio": "audio/arte-30.mp3"
+          "audio": "audio/arte-30.mp3",
+          "audioVersion": "7898afeb077f"
         }
       ],
       "schemaVersion": 1,
@@ -1443,7 +1563,8 @@
           "scene": "Explicar a ideia",
           "cue": "Clareza de uma conversa entre colaboradores.",
           "register": "Conversa",
-          "audio": "audio/projetos-01.mp3"
+          "audio": "audio/projetos-01.mp3",
+          "audioVersion": "326a62183f15"
         },
         {
           "id": "projetos-02",
@@ -1454,7 +1575,8 @@
           "scene": "Explicar a ideia",
           "cue": "Clareza de uma conversa entre colaboradores.",
           "register": "Conversa",
-          "audio": "audio/projetos-02.mp3"
+          "audio": "audio/projetos-02.mp3",
+          "audioVersion": "e0a26c7fd2bc"
         },
         {
           "id": "projetos-03",
@@ -1465,7 +1587,8 @@
           "scene": "Explicar a ideia",
           "cue": "Clareza de uma conversa entre colaboradores.",
           "register": "Conversa",
-          "audio": "audio/projetos-03.mp3"
+          "audio": "audio/projetos-03.mp3",
+          "audioVersion": "627c9b5dbabb"
         },
         {
           "id": "projetos-04",
@@ -1476,7 +1599,8 @@
           "scene": "Explicar a ideia",
           "cue": "Clareza de uma conversa entre colaboradores.",
           "register": "Conversa",
-          "audio": "audio/projetos-04.mp3"
+          "audio": "audio/projetos-04.mp3",
+          "audioVersion": "317bd304239f"
         },
         {
           "id": "projetos-05",
@@ -1487,7 +1611,8 @@
           "scene": "Explicar a ideia",
           "cue": "Clareza de uma conversa entre colaboradores.",
           "register": "Conversa",
-          "audio": "audio/projetos-05.mp3"
+          "audio": "audio/projetos-05.mp3",
+          "audioVersion": "415aa3c86f14"
         },
         {
           "id": "projetos-06",
@@ -1498,7 +1623,8 @@
           "scene": "Encontrar o problema",
           "cue": "Dúvida atenta; evite soar acusatório.",
           "register": "Conversa",
-          "audio": "audio/projetos-06.mp3"
+          "audio": "audio/projetos-06.mp3",
+          "audioVersion": "f3fc4372a574"
         },
         {
           "id": "projetos-07",
@@ -1509,7 +1635,8 @@
           "scene": "Encontrar o problema",
           "cue": "Dúvida atenta; evite soar acusatório.",
           "register": "Conversa",
-          "audio": "audio/projetos-07.mp3"
+          "audio": "audio/projetos-07.mp3",
+          "audioVersion": "9a6f72c5ed71"
         },
         {
           "id": "projetos-08",
@@ -1520,7 +1647,8 @@
           "scene": "Encontrar o problema",
           "cue": "Dúvida atenta; evite soar acusatório.",
           "register": "Técnica",
-          "audio": "audio/projetos-08.mp3"
+          "audio": "audio/projetos-08.mp3",
+          "audioVersion": "0a471a68de38"
         },
         {
           "id": "projetos-09",
@@ -1531,7 +1659,8 @@
           "scene": "Encontrar o problema",
           "cue": "Dúvida atenta; evite soar acusatório.",
           "register": "Conversa",
-          "audio": "audio/projetos-09.mp3"
+          "audio": "audio/projetos-09.mp3",
+          "audioVersion": "179fee1ecedc"
         },
         {
           "id": "projetos-10",
@@ -1542,7 +1671,8 @@
           "scene": "Encontrar o problema",
           "cue": "Dúvida atenta; evite soar acusatório.",
           "register": "Conversa",
-          "audio": "audio/projetos-10.mp3"
+          "audio": "audio/projetos-10.mp3",
+          "audioVersion": "eb956790ca9e"
         },
         {
           "id": "projetos-11",
@@ -1553,7 +1683,8 @@
           "scene": "Investigar antes de mudar",
           "cue": "Tom prático, com etapas bem conectadas.",
           "register": "Técnica",
-          "audio": "audio/projetos-11.mp3"
+          "audio": "audio/projetos-11.mp3",
+          "audioVersion": "dc9ec95b5a2e"
         },
         {
           "id": "projetos-12",
@@ -1564,7 +1695,8 @@
           "scene": "Investigar antes de mudar",
           "cue": "Tom prático, com etapas bem conectadas.",
           "register": "Conversa",
-          "audio": "audio/projetos-12.mp3"
+          "audio": "audio/projetos-12.mp3",
+          "audioVersion": "5d0d83a75e14"
         },
         {
           "id": "projetos-13",
@@ -1575,7 +1707,8 @@
           "scene": "Investigar antes de mudar",
           "cue": "Tom prático, com etapas bem conectadas.",
           "register": "Conversa",
-          "audio": "audio/projetos-13.mp3"
+          "audio": "audio/projetos-13.mp3",
+          "audioVersion": "fb98869efdd3"
         },
         {
           "id": "projetos-14",
@@ -1586,7 +1719,8 @@
           "scene": "Investigar antes de mudar",
           "cue": "Tom prático, com etapas bem conectadas.",
           "register": "Conversa",
-          "audio": "audio/projetos-14.mp3"
+          "audio": "audio/projetos-14.mp3",
+          "audioVersion": "65e33ea0c52d"
         },
         {
           "id": "projetos-15",
@@ -1597,7 +1731,8 @@
           "scene": "Investigar antes de mudar",
           "cue": "Tom prático, com etapas bem conectadas.",
           "register": "Conversa",
-          "audio": "audio/projetos-15.mp3"
+          "audio": "audio/projetos-15.mp3",
+          "audioVersion": "06e2f68d97d4"
         },
         {
           "id": "projetos-16",
@@ -1608,7 +1743,8 @@
           "scene": "Pedir um ajuste",
           "cue": "Pedido direto e cortês.",
           "register": "Conversa",
-          "audio": "audio/projetos-16.mp3"
+          "audio": "audio/projetos-16.mp3",
+          "audioVersion": "2efca6725ca6"
         },
         {
           "id": "projetos-17",
@@ -1619,7 +1755,8 @@
           "scene": "Pedir um ajuste",
           "cue": "Pedido direto e cortês.",
           "register": "Conversa",
-          "audio": "audio/projetos-17.mp3"
+          "audio": "audio/projetos-17.mp3",
+          "audioVersion": "1a578494e93d"
         },
         {
           "id": "projetos-18",
@@ -1630,7 +1767,8 @@
           "scene": "Pedir um ajuste",
           "cue": "Pedido direto e cortês.",
           "register": "Conversa",
-          "audio": "audio/projetos-18.mp3"
+          "audio": "audio/projetos-18.mp3",
+          "audioVersion": "53b72bd1d8ee"
         },
         {
           "id": "projetos-19",
@@ -1641,7 +1779,8 @@
           "scene": "Pedir um ajuste",
           "cue": "Pedido direto e cortês.",
           "register": "Técnica",
-          "audio": "audio/projetos-19.mp3"
+          "audio": "audio/projetos-19.mp3",
+          "audioVersion": "c9ad586a0cf6"
         },
         {
           "id": "projetos-20",
@@ -1652,7 +1791,8 @@
           "scene": "Pedir um ajuste",
           "cue": "Pedido direto e cortês.",
           "register": "Conversa",
-          "audio": "audio/projetos-20.mp3"
+          "audio": "audio/projetos-20.mp3",
+          "audioVersion": "38a1c0ab5894"
         },
         {
           "id": "projetos-21",
@@ -1663,7 +1803,8 @@
           "scene": "Testar e confirmar",
           "cue": "Concentração; alívio apenas quando o teste funciona.",
           "register": "Conversa",
-          "audio": "audio/projetos-21.mp3"
+          "audio": "audio/projetos-21.mp3",
+          "audioVersion": "23adb9159107"
         },
         {
           "id": "projetos-22",
@@ -1674,7 +1815,8 @@
           "scene": "Testar e confirmar",
           "cue": "Concentração; alívio apenas quando o teste funciona.",
           "register": "Conversa",
-          "audio": "audio/projetos-22.mp3"
+          "audio": "audio/projetos-22.mp3",
+          "audioVersion": "5642c5999841"
         },
         {
           "id": "projetos-23",
@@ -1685,7 +1827,8 @@
           "scene": "Testar e confirmar",
           "cue": "Concentração; alívio apenas quando o teste funciona.",
           "register": "Conversa",
-          "audio": "audio/projetos-23.mp3"
+          "audio": "audio/projetos-23.mp3",
+          "audioVersion": "68de585fe4a0"
         },
         {
           "id": "projetos-24",
@@ -1696,7 +1839,8 @@
           "scene": "Testar e confirmar",
           "cue": "Concentração; alívio apenas quando o teste funciona.",
           "register": "Conversa",
-          "audio": "audio/projetos-24.mp3"
+          "audio": "audio/projetos-24.mp3",
+          "audioVersion": "84c975336be5"
         },
         {
           "id": "projetos-25",
@@ -1707,7 +1851,8 @@
           "scene": "Testar e confirmar",
           "cue": "Concentração; alívio apenas quando o teste funciona.",
           "register": "Técnica",
-          "audio": "audio/projetos-25.mp3"
+          "audio": "audio/projetos-25.mp3",
+          "audioVersion": "a741877798fb"
         },
         {
           "id": "projetos-26",
@@ -1718,7 +1863,8 @@
           "scene": "Diário · o que aprendi",
           "cue": "Relato simples de causa, tentativa e resultado.",
           "register": "Leitura e escrita",
-          "audio": "audio/projetos-26.mp3"
+          "audio": "audio/projetos-26.mp3",
+          "audioVersion": "45123dbfe4e7"
         },
         {
           "id": "projetos-27",
@@ -1729,7 +1875,8 @@
           "scene": "Diário · o que aprendi",
           "cue": "Relato simples de causa, tentativa e resultado.",
           "register": "Leitura e escrita",
-          "audio": "audio/projetos-27.mp3"
+          "audio": "audio/projetos-27.mp3",
+          "audioVersion": "9f6ef16805ac"
         },
         {
           "id": "projetos-28",
@@ -1740,7 +1887,8 @@
           "scene": "Diário · o que aprendi",
           "cue": "Relato simples de causa, tentativa e resultado.",
           "register": "Leitura e escrita",
-          "audio": "audio/projetos-28.mp3"
+          "audio": "audio/projetos-28.mp3",
+          "audioVersion": "42b0b4d9954e"
         },
         {
           "id": "projetos-29",
@@ -1751,7 +1899,8 @@
           "scene": "Diário · o que aprendi",
           "cue": "Relato simples de causa, tentativa e resultado.",
           "register": "Leitura e escrita",
-          "audio": "audio/projetos-29.mp3"
+          "audio": "audio/projetos-29.mp3",
+          "audioVersion": "5fe2cad50704"
         },
         {
           "id": "projetos-30",
@@ -1762,7 +1911,8 @@
           "scene": "Diário · o que aprendi",
           "cue": "Relato simples de causa, tentativa e resultado.",
           "register": "Leitura e escrita",
-          "audio": "audio/projetos-30.mp3"
+          "audio": "audio/projetos-30.mp3",
+          "audioVersion": "075213a3b8db"
         }
       ],
       "schemaVersion": 1,

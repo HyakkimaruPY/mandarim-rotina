@@ -1,8 +1,9 @@
-import {features,compare} from './analysis.mjs';
-import {normalizePlayback,mono} from './audio.mjs';
+import {features,compare} from './analysis.mjs?v=2';
+import {normalizePlayback,mono} from './audio.mjs?v=2';
 const $=id=>document.getElementById(id),KEY='mandarim-rotina:v1';
 let data,state,island,phrase,epoch=0,recorder=null,stream=null,chunks=[],objectURL=null,clock=null,limit=null,ctx=null,captureCtx=null,sourceNode=null,levelClock=null,abort=null,reviewLocked=false,pending=false;
 const reference=$('reference'),mine=$('mine');
+const audioURL=p=>p.audio+'?v='+encodeURIComponent(p.audioVersion||'1');
 function initial(){return {version:1,island:'rotina',positions:{},reviews:{},preferences:{pinyin:false,meaning:false},lastReviewed:null};}
 function readState(){
   try{const s=JSON.parse(localStorage.getItem(KEY));if(!s||s.version!==1)return initial();
@@ -55,7 +56,7 @@ function select(id,index,focus=false){
   $('sentence').textContent=phrase.zh;$('scene').textContent=phrase.scene;$('phrase-number').textContent=`${index+1} / ${island.phrases.length}`;
   $('cue').textContent=`${phrase.register} · ${phrase.cue}`;$('pinyin').textContent=phrase.pinyin;$('translation').textContent=phrase.pt;$('structure').textContent=phrase.note;
   $('pinyin-details').open=state.preferences.pinyin;$('meaning-details').open=state.preferences.meaning;
-  reference.src=phrase.audio;reference.playbackRate=1;reference.load();$('ref-status').textContent='';$('rec-status').textContent='';
+  reference.src=audioURL(phrase);reference.playbackRate=1;reference.load();$('ref-status').textContent='';$('rec-status').textContent='';
   $('phrase-select').replaceChildren(...island.phrases.map((f,j)=>{const opt=el('option',`${String(j+1).padStart(2,'0')} · ${f.zh}`);opt.value=j;return opt;}));$('phrase-select').value=index;
   $('previous').disabled=index===0;$('next').disabled=index===island.phrases.length-1;
   showProgress();phraseList();if(focus)$('sentence').focus({preventScroll:false});
@@ -65,7 +66,7 @@ function stopMeter(){clearInterval(levelClock);levelClock=null;sourceNode?.disco
 function startMeter(activeStream,ticket){const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return;try{captureCtx=new AC();captureCtx.resume().catch(()=>{});const analyser=captureCtx.createAnalyser();analyser.fftSize=1024;sourceNode=captureCtx.createMediaStreamSource(activeStream);sourceNode.connect(analyser);const samples=new Float32Array(analyser.fftSize);$('input-level').hidden=false;levelClock=setInterval(()=>{if(ticket!==epoch)return;analyser.getFloatTimeDomainData(samples);const rms=Math.sqrt(samples.reduce((s,x)=>s+x*x,0)/samples.length);const db=20*Math.log10(Math.max(rms,.000001));$('level-meter').value=Math.max(0,Math.min(100,(db+65)/60*100));$('level-text').textContent=db<-50?'Voz baixa — aproxime o microfone':db>-6?'Muito forte — afaste um pouco':'Microfone recebendo sua voz';},180);}catch{stopMeter();}}
 function stop(){if(recorder&&recorder.state==='recording'){stopMeter();recorder.stop();stream?.getTracks().forEach(t=>t.stop());clearInterval(clock);clearTimeout(limit);$('stop').disabled=true;$('record').classList.remove('recording-active');$('rec-indicator').textContent='';$('rec-status').textContent='Preparando sua gravação…';}}
 async function startRecording(){
-  dispose();unlockReview();const ticket=epoch,refPath=phrase.audio;
+  dispose();unlockReview();const ticket=epoch,refPath=audioURL(phrase);
   if(!navigator.mediaDevices?.getUserMedia||!window.MediaRecorder){$('rec-status').textContent='Este navegador não oferece gravação. Abra a página HTTPS no Chrome, Firefox ou Safari atualizado.';return;}
   pending=true;$('record').disabled=true;$('rec-status').textContent='Autorize o microfone no navegador para começar.';
   let localStream,localRecorder;
@@ -129,5 +130,5 @@ for(const [id,key] of [['pinyin-details','pinyin'],['meaning-details','meaning']
 window.addEventListener('pagehide',dispose);
 window.addEventListener('pageshow',e=>{if(e.persisted&&data)select(state.island,state.positions[state.island]||0);});
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&(recorder||pending)){dispose();$('rec-status').textContent='Gravação descartada ao sair da página.';}});
-async function init(){try{const r=await fetch('./catalog.json');if(!r.ok)throw Error();const catalog=await r.json();const islands=await Promise.all(catalog.islands.map(async entry=>{const response=await fetch('./'+entry.path);if(!response.ok)throw Error();const module=await response.json();if(module.id!==entry.id)throw Error();return module;}));data={version:2,islands};if(!data.islands.length)throw Error();state=readState();select(state.island,state.positions[state.island]||0);$('loading').hidden=true;$('workspace').hidden=false;}catch{$('loading').textContent='Não foi possível abrir o material. Verifique a conexão e recarregue a página.';}}
+async function init(){try{const r=await fetch('./catalog.json',{cache:'no-cache'});if(!r.ok)throw Error();const catalog=await r.json();const islands=await Promise.all(catalog.islands.map(async entry=>{const response=await fetch('./'+entry.path,{cache:'no-cache'});if(!response.ok)throw Error();const module=await response.json();if(module.id!==entry.id)throw Error();return module;}));data={version:2,islands};if(!data.islands.length)throw Error();state=readState();select(state.island,state.positions[state.island]||0);$('loading').hidden=true;$('workspace').hidden=false;}catch{$('loading').textContent='Não foi possível abrir o material. Verifique a conexão e recarregue a página.';}}
 init();

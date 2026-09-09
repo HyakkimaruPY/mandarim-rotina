@@ -1,5 +1,5 @@
 """Discover standalone islands; generate the catalog and compatibility bundle."""
-import json,re
+import json,re,hashlib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def build():
@@ -18,6 +18,7 @@ def build():
             sentences.add(key)
             for field in ['zh','pt','pinyin','note','scene','cue','register']:assert p[field].strip()
             p['audio']=f'audio/{p["id"]}.mp3'
+            p['audioVersion']=hashlib.sha256(p['zh'].encode()).hexdigest()[:12]
         islands.append(i)
     islands.sort(key=lambda i:(i.get('order',9999),i['id']))
     assert islands
