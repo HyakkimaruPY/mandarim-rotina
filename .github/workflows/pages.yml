@@ -14,6 +14,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    outputs:
+      pages-artifact: ${{ steps.package-name.outputs.name }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -36,11 +38,15 @@ jobs:
           python scripts/validate.py --audio
       - uses: actions/upload-artifact@v4
         with:
-          name: mandarim-rotina-site
+          name: mandarim-rotina-site-${{ github.run_attempt }}
           path: dist
           retention-days: 30
+      - name: Identify this build package
+        id: package-name
+        run: echo "name=github-pages-${{ github.run_id }}-${{ github.run_attempt }}" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-pages-artifact@v3
         with:
+          name: ${{ steps.package-name.outputs.name }}
           path: dist
   deploy:
     needs: build
@@ -55,3 +61,5 @@ jobs:
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ needs.build.outputs.pages-artifact }}
