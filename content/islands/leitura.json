@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "id": "leitura",
+  "title": "Ler, conferir e conversar",
+  "zh": "读与思考",
+  "description": "Um artigo sobre músicas antigas: consultar a fonte, separar interpretação de fato e conversar com cuidado.",
+  "concept": "Ler criticamente um artigo cultural, verificar autoria e contexto, avaliar exemplos e registrar uma discussão distinguindo citação e interpretação.",
+  "order": 6,
+  "createdOn": "2026-09-20",
+  "corePatterns": [
+    "我想知道…",
+    "先…再…",
+    "如果…就…",
+    "不是…而是…"
+  ],
+  "topicWords": [
+    "文章",
+    "作者",
+    "原文",
+    "例子",
+    "引用",
+    "出处"
+  ],
+  "registerPolicy": "Base de conversa frequente com seis frases de leitura, escrita e linguagem técnica dentro das cenas.",
+  "phrases": [
+    {
+      "id": "leitura-01",
+      "zh": "我找到一篇文章。",
+      "pt": "Encontrei um artigo.",
+      "pinyin": "wǒ zhǎo dào yì piān wén zhāng。",
+      "note": "找到 destaca o resultado; 篇 conta artigos.",
+      "scene": "Encontrar um artigo",
+      "cue": "Curiosidade tranquila; ligue as palavras em ritmo normal.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-02",
+      "zh": "写的是以前的歌。",
+      "pt": "Ele fala sobre músicas de antigamente.",
+      "pinyin": "xiě de shì yǐ qián de gē。",
+      "note": "写的是… apresenta o assunto do texto; o artigo já foi mencionado.",
+      "scene": "Encontrar um artigo",
+      "cue": "Curiosidade tranquila; ligue as palavras em ritmo normal.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-03",
+      "zh": "我想知道作者怎么想。",
+      "pt": "Quero saber o que o autor pensa.",
+      "pinyin": "wǒ xiǎng zhī dào zuò zhě zěn me xiǎng。",
+      "note": "我想知道… introduz uma pergunta indireta, sem mudar a ordem.",
+      "scene": "Encontrar um artigo",
+      "cue": "Curiosidade tranquila; ligue as palavras em ritmo normal.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-04",
+      "zh": "先看开头，再看后面。",
+      "pt": "Primeiro leia o começo, depois o restante.",
+      "pinyin": "xiān kàn kāi tóu，zài kàn hòu miàn。",
+      "note": "先…再… organiza duas etapas da leitura.",
+      "scene": "Encontrar um artigo",
+      "cue": "Curiosidade tranquila; ligue as palavras em ritmo normal.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-05",
+      "zh": "如果你也有兴趣，就一起看吧。",
+      "pt": "Se você também tiver interesse, vamos ler juntos.",
+      "pinyin": "rú guǒ nǐ yě yǒu xìng qù，jiù yì qǐ kàn ba。",
+      "note": "如果…就… liga condição e convite; 吧 suaviza a proposta.",
+      "scene": "Encontrar um artigo",
+      "cue": "Curiosidade tranquila; ligue as palavras em ritmo normal.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-06",
+      "zh": "这篇文章是谁写的？",
+      "pt": "Quem escreveu este artigo?",
+      "pinyin": "zhè piān wén zhāng shì shéi xiě de？",
+      "note": "是…写的 focaliza quem realizou uma ação já conhecida.",
+      "scene": "Consultar a fonte",
+      "cue": "Dúvida cuidadosa, sem tom de acusação; destaque a informação procurada.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-07",
+      "zh": "我想知道它最早发在哪里。",
+      "pt": "Quero saber onde ele foi publicado primeiro.",
+      "pinyin": "wǒ xiǎng zhī dào tā zuì zǎo fā zài nǎ lǐ。",
+      "note": "最早 indica o primeiro momento; 发 aqui significa publicar.",
+      "scene": "Consultar a fonte",
+      "cue": "Dúvida cuidadosa, sem tom de acusação; destaque a informação procurada.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-08",
+      "zh": "先看日期，再找原文。",
+      "pt": "Primeiro confira a data, depois procure o texto original.",
+      "pinyin": "xiān kàn rì qī，zài zhǎo yuán wén。",
+      "note": "先…再… reaparece na consulta da fonte; 原文 é o texto original.",
+      "scene": "Consultar a fonte",
+      "cue": "Dúvida cuidadosa, sem tom de acusação; destaque a informação procurada.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-09",
+      "zh": "这不是作者发的，而是别人转发的。",
+      "pt": "Isto não foi publicado pelo autor, mas compartilhado por outra pessoa.",
+      "pinyin": "zhè bú shì zuò zhě fā de，ér shì bié rén zhuǎn fā de。",
+      "note": "不是…而是… corrige quem publicou; 转发 é compartilhar novamente.",
+      "scene": "Consultar a fonte",
+      "cue": "Dúvida cuidadosa, sem tom de acusação; destaque a informação procurada.",
+      "register": "Técnica"
+    },
+    {
+      "id": "leitura-10",
+      "zh": "如果找不到原文，就先别发给别人。",
+      "pt": "Se não encontrar o original, não envie a outras pessoas por enquanto.",
+      "pinyin": "rú guǒ zhǎo bu dào yuán wén，jiù xiān bié fā gěi bié rén。",
+      "note": "找不到 indica não conseguir encontrar; 先别… suspende a ação.",
+      "scene": "Consultar a fonte",
+      "cue": "Dúvida cuidadosa, sem tom de acusação; destaque a informação procurada.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-11",
+      "zh": "这里说的不是歌手，而是听歌的人。",
+      "pt": "Aqui o texto não fala do cantor, mas de quem ouve música.",
+      "pinyin": "zhè lǐ shuō de bú shì gē shǒu，ér shì tīng gē de rén。",
+      "note": "不是…而是… corrige o referente, não o gosto musical.",
+      "scene": "Ler sem tirar do contexto",
+      "cue": "Tom de esclarecimento; pausa curta entre as partes do contraste.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-12",
+      "zh": "这句话要跟前面的一起看。",
+      "pt": "É preciso ler esta frase junto com a anterior.",
+      "pinyin": "zhè jù huà yào gēn qián miàn de yì qǐ kàn。",
+      "note": "跟…一起… liga dois elementos; 前面的 omite 话, já entendido.",
+      "scene": "Ler sem tirar do contexto",
+      "cue": "Tom de esclarecimento; pausa curta entre as partes do contraste.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-13",
+      "zh": "只看这一句，容易理解错。",
+      "pt": "Lendo só esta frase, é fácil entender errado.",
+      "pinyin": "zhǐ kàn zhè yí jù，róng yì lǐ jiě cuò。",
+      "note": "只 restringe o recorte; 理解错 expressa um resultado incorreto.",
+      "scene": "Ler sem tirar do contexto",
+      "cue": "Tom de esclarecimento; pausa curta entre as partes do contraste.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-14",
+      "zh": "作者的意思是，有些歌能让人想起过去。",
+      "pt": "O autor quer dizer que algumas músicas podem trazer o passado à memória.",
+      "pinyin": "zuò zhě de yì si shì，yǒu xiē gē néng ràng rén xiǎng qǐ guò qù。",
+      "note": "…的意思是… reformula uma ideia; 有些 evita generalizar.",
+      "scene": "Ler sem tirar do contexto",
+      "cue": "Tom de esclarecimento; pausa curta entre as partes do contraste.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-15",
+      "zh": "这是一种解释，不是唯一的答案。",
+      "pt": "Esta é uma interpretação, não a única resposta.",
+      "pinyin": "zhè shì yì zhǒng jiě shì，bú shì wéi yī de dá àn。",
+      "note": "一种…不是唯一的… delimita o alcance da interpretação.",
+      "scene": "Ler sem tirar do contexto",
+      "cue": "Tom de esclarecimento; pausa curta entre as partes do contraste.",
+      "register": "Leitura e escrita"
+    },
+    {
+      "id": "leitura-16",
+      "zh": "文章里还提到了一个例子。",
+      "pt": "O artigo também mencionou um exemplo.",
+      "pinyin": "wén zhāng lǐ hái tí dào le yí gè lì zi。",
+      "note": "还 acrescenta informação; 提到 é mencionar.",
+      "scene": "Examinar os exemplos",
+      "cue": "Investigação aberta; dê foco ao exemplo, sem soar conclusivo.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-17",
+      "zh": "这个例子能说明什么？",
+      "pt": "O que este exemplo pode mostrar?",
+      "pinyin": "zhè ge lì zi néng shuō míng shén me？",
+      "note": "能说明什么 pergunta o que o exemplo permite concluir.",
+      "scene": "Examinar os exemplos",
+      "cue": "Investigação aberta; dê foco ao exemplo, sem soar conclusivo.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-18",
+      "zh": "一个人的经历不能代表所有人。",
+      "pt": "A experiência de uma pessoa não representa todo mundo.",
+      "pinyin": "yí gè rén de jīng lì bù néng dài biǎo suǒ yǒu rén。",
+      "note": "不能代表… limita a generalização; 所有人 abrange todas as pessoas.",
+      "scene": "Examinar os exemplos",
+      "cue": "Investigação aberta; dê foco ao exemplo, sem soar conclusivo.",
+      "register": "Leitura e escrita"
+    },
+    {
+      "id": "leitura-19",
+      "zh": "如果还有别的例子，就放在一起比较。",
+      "pt": "Se houver outros exemplos, compare-os lado a lado.",
+      "pinyin": "rú guǒ hái yǒu bié de lì zi，jiù fàng zài yì qǐ bǐ jiào。",
+      "note": "如果…就… propõe um procedimento; 比较 aqui é verbo: comparar.",
+      "scene": "Examinar os exemplos",
+      "cue": "Investigação aberta; dê foco ao exemplo, sem soar conclusivo.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-20",
+      "zh": "我们先比较相同的地方，再讨论不同的地方。",
+      "pt": "Primeiro vamos comparar as semelhanças, depois discutir as diferenças.",
+      "pinyin": "wǒ men xiān bǐ jiào xiāng tóng de dì fāng，zài tǎo lùn bù tóng de dì fāng。",
+      "note": "…的地方 pode indicar aspectos, não só lugares; 先…再… ordena a análise.",
+      "scene": "Examinar os exemplos",
+      "cue": "Investigação aberta; dê foco ao exemplo, sem soar conclusivo.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-21",
+      "zh": "你说的这一点，我同意。",
+      "pt": "Concordo com esse ponto que você trouxe.",
+      "pinyin": "nǐ shuō de zhè yì diǎn，wǒ tóng yì。",
+      "note": "这一点 delimita a concordância a um ponto da conversa.",
+      "scene": "Discordar sem fechar a conversa",
+      "cue": "Cordialidade sincera; ressalvas suaves, sem entonação irônica.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-22",
+      "zh": "不过，我想知道你为什么这样想。",
+      "pt": "Mas quero saber por que você pensa assim.",
+      "pinyin": "bú guò，wǒ xiǎng zhī dào nǐ wèi shén me zhè yàng xiǎng。",
+      "note": "不过 introduz uma ressalva; 我想知道… pede a razão.",
+      "scene": "Discordar sem fechar a conversa",
+      "cue": "Cordialidade sincera; ressalvas suaves, sem entonação irônica.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-23",
+      "zh": "我的看法跟你的不太一样。",
+      "pt": "Minha opinião é um pouco diferente da sua.",
+      "pinyin": "wǒ de kàn fǎ gēn nǐ de bú tài yí yàng。",
+      "note": "跟…不太一样 suaviza uma diferença; 你的 retoma 看法.",
+      "scene": "Discordar sem fechar a conversa",
+      "cue": "Cordialidade sincera; ressalvas suaves, sem entonação irônica.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-24",
+      "zh": "我不是说你错了，而是想再了解一点。",
+      "pt": "Não estou dizendo que você está errado; quero entender um pouco mais.",
+      "pinyin": "wǒ bú shì shuō nǐ cuò le，ér shì xiǎng zài liǎo jiě yì diǎn。",
+      "note": "不是…而是… esclarece a intenção; 再…一点 pede aprofundamento.",
+      "scene": "Discordar sem fechar a conversa",
+      "cue": "Cordialidade sincera; ressalvas suaves, sem entonação irônica.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-25",
+      "zh": "我们可以有不同的看法，也可以继续聊。",
+      "pt": "Podemos ter opiniões diferentes e continuar conversando.",
+      "pinyin": "wǒ men kě yǐ yǒu bù tóng de kàn fǎ，yě kě yǐ jì xù liáo。",
+      "note": "可以…也可以… apresenta duas possibilidades compatíveis.",
+      "scene": "Discordar sem fechar a conversa",
+      "cue": "Cordialidade sincera; ressalvas suaves, sem entonação irônica.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-26",
+      "zh": "我想把讨论的重点记下来。",
+      "pt": "Quero anotar os pontos principais da discussão.",
+      "pinyin": "wǒ xiǎng bǎ tǎo lùn de zhòng diǎn jì xià lái。",
+      "note": "把…记下来 indica registrar algo para conservar.",
+      "scene": "Registrar sem confundir as vozes",
+      "cue": "Leitura clara e fluida; faça pausas entre as ideias, sem desacelerar sílaba por sílaba.",
+      "register": "Conversa"
+    },
+    {
+      "id": "leitura-27",
+      "zh": "引用原文的时候，要说明出处。",
+      "pt": "Ao citar o texto original, é preciso indicar a fonte.",
+      "pinyin": "yǐn yòng yuán wén de shí hou，yào shuō míng chū chù。",
+      "note": "引用 é citar; 出处 é a origem da citação. …的时候 situa a orientação.",
+      "scene": "Registrar sem confundir as vozes",
+      "cue": "Leitura clara e fluida; faça pausas entre as ideias, sem desacelerar sílaba por sílaba.",
+      "register": "Técnica"
+    },
+    {
+      "id": "leitura-28",
+      "zh": "下面不是作者的话，而是我的理解。",
+      "pt": "O que vem a seguir não são palavras do autor, mas a minha interpretação.",
+      "pinyin": "xià miàn bú shì zuò zhě de huà，ér shì wǒ de lǐ jiě。",
+      "note": "下面 anuncia o trecho seguinte de um texto; 不是…而是… separa autoria e interpretação.",
+      "scene": "Registrar sem confundir as vozes",
+      "cue": "Leitura clara e fluida; faça pausas entre as ideias, sem desacelerar sílaba por sílaba.",
+      "register": "Leitura e escrita"
+    },
+    {
+      "id": "leitura-29",
+      "zh": "目前还不能下结论，需要更多信息。",
+      "pt": "Por enquanto, ainda não dá para tirar uma conclusão; precisamos de mais informações.",
+      "pinyin": "mù qián hái bù néng xià jié lùn，xū yào gèng duō xìn xī。",
+      "note": "目前 delimita o momento; 下结论 é chegar a uma conclusão.",
+      "scene": "Registrar sem confundir as vozes",
+      "cue": "Leitura clara e fluida; faça pausas entre as ideias, sem desacelerar sílaba por sílaba.",
+      "register": "Leitura e escrita"
+    },
+    {
+      "id": "leitura-30",
+      "zh": "如果以后有新的发现，就再补充。",
+      "pt": "Se houver novas descobertas depois, acrescentamos mais informações.",
+      "pinyin": "rú guǒ yǐ hòu yǒu xīn de fā xiàn，jiù zài bǔ chōng。",
+      "note": "如果…就… deixa o texto aberto a revisão; 补充 é acrescentar o que falta.",
+      "scene": "Registrar sem confundir as vozes",
+      "cue": "Leitura clara e fluida; faça pausas entre as ideias, sem desacelerar sílaba por sílaba.",
+      "register": "Conversa"
+    }
+  ]
+}
