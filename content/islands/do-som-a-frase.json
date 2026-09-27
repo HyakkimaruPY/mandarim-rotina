@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "id": "do-som-a-frase",
+  "title": "Do som à frase",
+  "zh": "从声音到句子",
+  "description": "Ouvir uma fala natural, reconstruir o que foi dito e confirmar forma, sentido e uso.",
+  "concept": "Investigar uma frase ouvida em velocidade natural: localizar o trecho, distinguir sons próximos, confirmar caracteres e sentido, e reaproveitar a estrutura em outra situação.",
+  "order": 7,
+  "createdOn": "2026-09-27",
+  "corePatterns": [
+    "听起来…",
+    "是不是…",
+    "我听成了…",
+    "不是…而是…",
+    "能不能…",
+    "如果…就…"
+  ],
+  "topicWords": [
+    "声音",
+    "语境",
+    "声调",
+    "原句",
+    "直译",
+    "表达"
+  ],
+  "registerPolicy": "Base de conversa frequente, com seis frases de leitura, escrita ou linguagem técnica integradas à investigação da fala.",
+  "phrases": [
+    {
+      "id": "do-som-a-frase-01",
+      "zh": "刚才那句话我没听清。",
+      "pt": "Não ouvi claramente aquela frase de agora há pouco.",
+      "pinyin": "gāng cái nà jù huà wǒ méi tīng qīng。",
+      "note": "没听清 nega o resultado de ouvir com clareza; não significa necessariamente não compreender.",
+      "scene": "Perceber a dúvida",
+      "cue": "Dúvida espontânea; dê leve destaque a 没听清.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-02",
+      "zh": "之前说的，我都听懂了。",
+      "pt": "Entendi tudo o que foi dito antes.",
+      "pinyin": "zhī qián shuō de，wǒ dōu tīng dǒng le。",
+      "note": "之前说的 transforma o que foi dito antes em tópico; 听懂 marca compreensão alcançada.",
+      "scene": "Perceber a dúvida",
+      "cue": "Constatação tranquila, seguida de uma pequena pausa.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-03",
+      "zh": "只有最后几个字不太清楚。",
+      "pt": "Só os últimos caracteres não ficaram muito claros.",
+      "pinyin": "zhǐ yǒu zuì hòu jǐ ge zì bú tài qīng chu。",
+      "note": "只有 restringe a dificuldade; 不太… suaviza a avaliação.",
+      "scene": "Perceber a dúvida",
+      "cue": "Delimite o problema sem dramatizar; destaque 只有.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-04",
+      "zh": "听起来像是两个词连在一起了。",
+      "pt": "Parece que duas palavras foram ligadas na fala.",
+      "pinyin": "tīng qǐ lái xiàng shì liǎng ge cí lián zài yì qǐ le。",
+      "note": "听起来像是… apresenta uma impressão auditiva, ainda sem afirmar certeza.",
+      "scene": "Perceber a dúvida",
+      "cue": "Tom de hipótese; mantenha a ligação natural entre as palavras.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-05",
+      "zh": "我想再听一遍。",
+      "pt": "Quero ouvir mais uma vez.",
+      "pinyin": "wǒ xiǎng zài tīng yí biàn。",
+      "note": "再 indica repetição futura; 遍 conta uma reprodução completa.",
+      "scene": "Perceber a dúvida",
+      "cue": "Decisão simples e direta.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-06",
+      "zh": "先从这一小段开始吧。",
+      "pt": "Vamos começar por este pequeno trecho.",
+      "pinyin": "xiān cóng zhè yì xiǎo duàn kāi shǐ ba。",
+      "note": "从…开始 define o ponto inicial; 吧 transforma a frase em sugestão.",
+      "scene": "Isolar o trecho",
+      "cue": "Tom prático, como quem organiza uma tentativa.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-07",
+      "zh": "把前后两句也放出来。",
+      "pt": "Reproduza também as duas frases ao redor.",
+      "pinyin": "bǎ qián hòu liǎng jù yě fàng chū lái。",
+      "note": "把…放出来 focaliza tornar o áudio disponível; 前后 indica o contexto ao redor.",
+      "scene": "Isolar o trecho",
+      "cue": "Pedido objetivo; ligue 放出来 como uma unidade.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-08",
+      "zh": "离开语境，我更难听懂。",
+      "pt": "Fora do contexto, fica mais difícil para mim entender pelo ouvido.",
+      "pinyin": "lí kāi yǔ jìng，wǒ gèng nán tīng dǒng。",
+      "note": "离开… apresenta ausência de contexto; 更难 marca aumento de dificuldade.",
+      "scene": "Isolar o trecho",
+      "cue": "Reflexivo; faça uma pausa curta depois de 语境.",
+      "register": "Técnica"
+    },
+    {
+      "id": "do-som-a-frase-09",
+      "zh": "如果知道话题，就容易多了。",
+      "pt": "Se eu souber o assunto, fica bem mais fácil.",
+      "pinyin": "rú guǒ zhī dào huà tí，jiù róng yì duō le。",
+      "note": "如果…就… liga uma condição a seu resultado; …多了 intensifica a diferença.",
+      "scene": "Isolar o trecho",
+      "cue": "Dê foco à relação entre condição e resultado.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-10",
+      "zh": "这一遍我好像听到了。",
+      "pt": "Desta vez, acho que consegui ouvir.",
+      "pinyin": "zhè yí biàn wǒ hǎo xiàng tīng dào le。",
+      "note": "好像 mantém a conclusão provisória; 听到了 marca que o som foi percebido.",
+      "scene": "Isolar o trecho",
+      "cue": "Pequena descoberta, sem certeza exagerada.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-11",
+      "zh": "第一个音是不是声调不一样？",
+      "pt": "Será que o primeiro som tem um tom diferente?",
+      "pinyin": "dì yí ge yīn shì bú shì shēng diào bù yí yàng？",
+      "note": "是不是… pergunta por confirmação; 声调 é o tom lexical.",
+      "scene": "Distinguir sons próximos",
+      "cue": "Pergunta investigativa; eleve apenas o contorno final natural.",
+      "register": "Técnica"
+    },
+    {
+      "id": "do-som-a-frase-12",
+      "zh": "我听成了另外一个字。",
+      "pt": "Eu entendi pelo ouvido como se fosse outro caractere.",
+      "pinyin": "wǒ tīng chéng le lìng wài yí ge zì。",
+      "note": "听成了… apresenta o resultado equivocado da percepção auditiva.",
+      "scene": "Distinguir sons próximos",
+      "cue": "Reconhecimento neutro do engano; destaque 另外.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-13",
+      "zh": "不是两个音一样，而是他说得太快了。",
+      "pt": "Não é que os dois sons sejam iguais; é que ele falou rápido demais.",
+      "pinyin": "bú shì liǎng ge yīn yí yàng，ér shì tā shuō de tài kuài le。",
+      "note": "不是…而是… substitui uma explicação por outra; 说得… descreve o modo da fala.",
+      "scene": "Distinguir sons próximos",
+      "cue": "Contraste claro, com pausa breve antes de 而是.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-14",
+      "zh": "这两个音要怎么分？",
+      "pt": "Como distinguir estes dois sons?",
+      "pinyin": "zhè liǎng ge yīn yào zěn me fēn？",
+      "note": "要怎么… pergunta pelo método; 分 aqui significa distinguir.",
+      "scene": "Distinguir sons próximos",
+      "cue": "Curiosidade direta; dê foco a 怎么.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-15",
+      "zh": "放慢一点以后，区别就听出来了。",
+      "pt": "Depois de reduzir um pouco a velocidade, dá para perceber a diferença.",
+      "pinyin": "fàng màn yì diǎn yǐ hòu，qū bié jiù tīng chū lái le。",
+      "note": "…以后…就… relaciona ajuste e resultado; 听出来 é identificar pelo ouvido.",
+      "scene": "Distinguir sons próximos",
+      "cue": "Tom de descoberta; não desacelere artificialmente a frase inteira.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-16",
+      "zh": "你能不能按正常速度再说一次？",
+      "pt": "Você pode dizer outra vez em velocidade normal?",
+      "pinyin": "nǐ néng bu néng àn zhèng cháng sù dù zài shuō yí cì？",
+      "note": "能不能… faz um pedido; 按正常速度 indica o modo desejado.",
+      "scene": "Pedir confirmação",
+      "cue": "Pedido cortês, sem soar como ordem; velocidade realmente normal.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-17",
+      "zh": "不用一个字一个字地说。",
+      "pt": "Não precisa falar caractere por caractere.",
+      "pinyin": "bú yòng yí ge zì yí ge zì de shuō。",
+      "note": "不用… indica ausência de necessidade; 一个…一个… descreve separação excessiva.",
+      "scene": "Pedir confirmação",
+      "cue": "Gentil e natural; mantenha o ritmo ligado.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-18",
+      "zh": "原句到底是怎么说的？",
+      "pt": "Como era exatamente a frase original?",
+      "pinyin": "yuán jù dào dǐ shì zěn me shuō de？",
+      "note": "到底 pede precisão; 是怎么说的 focaliza a forma de uma fala já ocorrida.",
+      "scene": "Pedir confirmação",
+      "cue": "Dúvida genuína; destaque 到底 sem agressividade.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-19",
+      "zh": "你可以把这句话打出来吗？",
+      "pt": "Você pode digitar esta frase?",
+      "pinyin": "nǐ kě yǐ bǎ zhè jù huà dǎ chū lái ma？",
+      "note": "把…打出来 significa digitar e tornar visível o conteúdo.",
+      "scene": "Pedir confirmação",
+      "cue": "Pedido amigável, com subida leve no final.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-20",
+      "zh": "看到汉字以后，我就明白了。",
+      "pt": "Depois de ver os caracteres, entendi.",
+      "pinyin": "kàn dào hàn zì yǐ hòu，wǒ jiù míng bai le。",
+      "note": "…以后…就… apresenta o evento que levou ao entendimento.",
+      "scene": "Pedir confirmação",
+      "cue": "Alívio discreto; dê leve destaque a 明白了.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-21",
+      "zh": "这个词在这里是什么意思？",
+      "pt": "O que esta palavra significa aqui?",
+      "pinyin": "zhè ge cí zài zhè lǐ shì shén me yì si？",
+      "note": "在这里 restringe a pergunta ao sentido contextual, não a todos os usos da palavra.",
+      "scene": "Confirmar o sentido",
+      "cue": "Pergunta precisa; destaque 在这里.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-22",
+      "zh": "直译没有错，但听起来不自然。",
+      "pt": "A tradução literal não está errada, mas soa pouco natural.",
+      "pinyin": "zhí yì méi yǒu cuò，dàn tīng qǐ lái bù zì rán。",
+      "note": "没有错…但… reconhece correção antes da ressalva; 直译 é tradução literal.",
+      "scene": "Confirmar o sentido",
+      "cue": "Avaliação equilibrada; não apague o contraste depois de 但.",
+      "register": "Leitura e escrita"
+    },
+    {
+      "id": "do-som-a-frase-23",
+      "zh": "如果换个说法，意思会不会变？",
+      "pt": "Se mudarmos a forma de dizer, será que o sentido muda?",
+      "pinyin": "rú guǒ huàn ge shuō fǎ，yì si huì bu huì biàn？",
+      "note": "如果…会不会… pergunta pelo possível efeito de uma condição.",
+      "scene": "Confirmar o sentido",
+      "cue": "Tom aberto, convidando comparação.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-24",
+      "zh": "字面意思和实际用法不完全一样。",
+      "pt": "O sentido literal e o uso real não são exatamente iguais.",
+      "pinyin": "zì miàn yì si hé shí jì yòng fǎ bù wán quán yí yàng。",
+      "note": "不完全一样 indica diferença parcial; 字面意思 contrasta com 实际用法.",
+      "scene": "Confirmar o sentido",
+      "cue": "Explicação clara, com pausa leve entre os dois termos.",
+      "register": "Leitura e escrita"
+    },
+    {
+      "id": "do-som-a-frase-25",
+      "zh": "放在这个语境里，这样理解更合适。",
+      "pt": "Neste contexto, é mais adequado entender assim.",
+      "pinyin": "fàng zài zhè ge yǔ jìng lǐ，zhè yàng lǐ jiě gèng hé shì。",
+      "note": "放在…里 define o enquadramento; 更合适 faz uma comparação contextual.",
+      "scene": "Confirmar o sentido",
+      "cue": "Conclusão ponderada; destaque 这个语境.",
+      "register": "Leitura e escrita"
+    },
+    {
+      "id": "do-som-a-frase-26",
+      "zh": "我把原句和解释记在一起。",
+      "pt": "Anoto a frase original junto com a explicação.",
+      "pinyin": "wǒ bǎ yuán jù hé jiě shì jì zài yì qǐ。",
+      "note": "把…记在一起 expressa registrar dois elementos de forma associada.",
+      "scene": "Levar a frase adiante",
+      "cue": "Tom de relato; mantenha a sequência fluida.",
+      "register": "Leitura e escrita"
+    },
+    {
+      "id": "do-som-a-frase-27",
+      "zh": "下次听到的时候，我可能会认出来。",
+      "pt": "Na próxima vez que eu ouvir, talvez consiga reconhecer.",
+      "pinyin": "xià cì tīng dào de shí hou，wǒ kě néng huì rèn chū lái。",
+      "note": "…的时候 situa a próxima ocorrência; 可能会 mantém o resultado como possibilidade.",
+      "scene": "Levar a frase adiante",
+      "cue": "Expectativa tranquila, sem prometer certeza.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-28",
+      "zh": "我还想用同样的结构说一句。",
+      "pt": "Também quero criar uma frase com a mesma estrutura.",
+      "pinyin": "wǒ hái xiǎng yòng tóng yàng de jié gòu shuō yí jù。",
+      "note": "还想… acrescenta uma intenção; 用…结构说一句 propõe reutilizar o padrão.",
+      "scene": "Levar a frase adiante",
+      "cue": "Iniciativa leve; dê foco a 同样的结构.",
+      "register": "Técnica"
+    },
+    {
+      "id": "do-som-a-frase-29",
+      "zh": "只记一个词，很快就会忘。",
+      "pt": "Se eu anotar apenas uma palavra, logo vou esquecer.",
+      "pinyin": "zhǐ jì yí ge cí，hěn kuài jiù huì wàng。",
+      "note": "只… delimita uma estratégia insuficiente; 很快就会… prevê o resultado.",
+      "scene": "Levar a frase adiante",
+      "cue": "Constatação simples, com leve ênfase em 只.",
+      "register": "Conversa"
+    },
+    {
+      "id": "do-som-a-frase-30",
+      "zh": "放进完整的句子里，才更容易记住。",
+      "pt": "Só colocando numa frase completa fica mais fácil memorizar.",
+      "pinyin": "fàng jìn wán zhěng de jù zi lǐ，cái gèng róng yì jì zhù。",
+      "note": "…才… apresenta a condição considerada necessária; 记住 marca retenção alcançada.",
+      "scene": "Levar a frase adiante",
+      "cue": "Fechamento firme e reflexivo; destaque 才.",
+      "register": "Leitura e escrita"
+    }
+  ]
+}
